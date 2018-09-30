@@ -1,0 +1,28 @@
+<Page ux:Class="Getpage">
+
+   	<Router ux:Dependency="router" />
+    <JavaScript File="Getjs.js" />
+    <Grid>
+        <DockPanel Background="#fff">
+        	<Activated>
+    	    	<Callback Handler="{GetImage}" />
+    	    </Activated>
+            <DockPanel ux:Name="topPanel" Dock="Top" Background="#333">
+                <Button Text="&lt; Back" Dock="Left">
+                    <Clicked>
+                        <Callback Handler="{goBack}" />
+                        
+                    </Clicked>
+                </Button>
+            </DockPanel>
+
+            <ScrollView ux:Name="detailSV" Dock="Fill">
+
+                	<StackPanel Margin="10" Orientation="Horizontal">
+    					<Image Url="{images}" />
+                	</StackPanel>
+
+            </ScrollView>
+        </DockPanel>
+    </Grid>
+</Page>

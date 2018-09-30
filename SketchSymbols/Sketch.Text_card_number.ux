@@ -1,0 +1,22 @@
+<!-- <Panel ux:Class="Sketch.Text_card_number" Width="123" Height="15" Text_card_number_4="1108   5678   9101   1234">
+	<string ux:Property="Text_card_number_4" />
+	<Text Color="1" FontSize="12" Value="{Property Text_card_number_4}" TextTruncation="None" TextWrapping="Wrap" TextAlignment="Center" Width="100%" Height="100%" Alignment="BottomLeft" Margin="0">
+		Text_card_number_4
+	</Text>
+</Panel> -->
+
+<Panel ux:Class="Sketch.Text_card_number" Width="89" Height="49" Cardnum="카드 번호">
+	<string ux:Property="Cardnum" />
+	<Panel Width="100%" Height="0" Alignment="TopLeft" Offset="0%, 80.91837%" Margin="0" Opacity="0.6861979">
+		<!-- Line -->
+		<Path Data="M 0.9887640449438 0.5 L 0 0.5" StretchMode="Fill" Width="240" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="1" Alignment="Center">
+				<SolidColor Color="0.6078922, 0.6078033, 0.6079226, 1" />
+			</Stroke>
+		</Path>
+	</Panel>
+	<Text Color="0.6078922, 0.6078033, 0.6079226, 1" FontSize="13" Value="{Property Cardnum}" TextTruncation="None" TextWrapping="Wrap" Width="86.51685%" Height="34.69388%" Alignment="BottomLeft" Offset="0%, -32" Margin="0">
+		<!-- Password -->
+	</Text>
+</Panel>

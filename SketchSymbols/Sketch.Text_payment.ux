@@ -1,0 +1,6 @@
+<Panel ux:Class="Sketch.Text_payment" Width="300" Height="19" Text_payment_="등록한 결제비밀번호를 입력해주세요.">
+	<string ux:Property="Text_payment_" />
+	<Text Color="0.2902216, 0.2901753, 0.2902375, 1" FontSize="16" Value="{Property Text_payment_}" TextTruncation="None" TextWrapping="Wrap" TextAlignment="Center" Width="100%" Height="100%" Alignment="BottomLeft" Offset="0.4291846%, 0" Margin="0">
+		<!-- Text_payment_ -->
+	</Text>
+</Panel>

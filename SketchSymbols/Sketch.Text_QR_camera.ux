@@ -1,0 +1,6 @@
+<Panel ux:Class="Sketch.Text_QR_camera" Width="234" Height="19" text="결제 화면의 QR 코드를 스캔해주세요.">
+	<string ux:Property="text" />
+	<Text Color="1" FontSize="16" Value="{Property text}" TextTruncation="None" TextWrapping="Wrap" TextAlignment="Center" Width="100%" Height="100%" Alignment="BottomLeft" Margin="0">
+		<!-- text -->
+	</Text>
+</Panel>

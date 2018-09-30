@@ -1,0 +1,22 @@
+<Panel ux:Class="Sketch.Icon_x_white" Width="21" Height="21">
+	<Panel Width="100%" Height="4.761905%" Alignment="BottomRight" Offset="0.2781746, -9.721826" Margin="0">
+		<!-- Path -->
+		<Path Data="M 1 0 L 0 0" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="2" Alignment="Center">
+				<SolidColor Color="1" />
+			</Stroke>
+		</Path>
+		<Rotation Degrees="45" />
+	</Panel>
+	<Panel Width="9.523809%" Height="100%" Alignment="BottomRight" Offset="-9, 0" Margin="0">
+		<!-- Path -->
+		<Path Data="M 0.5 0 L 0.5 1" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="2" Alignment="Center">
+				<SolidColor Color="1" />
+			</Stroke>
+		</Path>
+		<Rotation Degrees="45" />
+	</Panel>
+</Panel>

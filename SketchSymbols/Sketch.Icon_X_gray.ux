@@ -1,0 +1,20 @@
+<Panel ux:Class="Sketch.Icon_X_gray" Width="16" Height="16">
+	<Panel Width="91.29138%" Height="91.29138%" Alignment="TopLeft" Offset="3.392857%, 3.392857%" Margin="0">
+		<!-- Path -->
+		<Path Data="M 1 0 L 0 1 L 1 0" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="2" Alignment="Center">
+				<SolidColor Color="0.6078922, 0.6078033, 0.6079226, 1" />
+			</Stroke>
+		</Path>
+	</Panel>
+	<Panel Width="91.29138%" Height="91.29138%" Alignment="TopLeft" Offset="3.392857%, 3.392857%" Margin="0">
+		<!-- Path -->
+		<Path Data="M 0 0 L 1 1" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="2" Alignment="Center">
+				<SolidColor Color="0.6078922, 0.6078033, 0.6079226, 1" />
+			</Stroke>
+		</Path>
+	</Panel>
+</Panel>

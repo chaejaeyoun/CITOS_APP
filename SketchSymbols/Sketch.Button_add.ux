@@ -1,0 +1,46 @@
+<Panel ux:Class="Sketch.Button_add" Width="88" Height="88">
+	<Panel Width="23.86364%" Height="1.136364%" Alignment="TopLeft" Offset="38.63636%, 50%" Margin="0">
+		<!-- Path -->
+		<Path Data="M 1 0 L 0 0" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="2" Alignment="Center">
+				<SolidColor Color="1" />
+			</Stroke>
+		</Path>
+	</Panel>
+	<Panel Width="2.272727%" Height="23.86364%" Alignment="TopLeft" Offset="48.86364%, 38.63636%" Margin="0">
+		<!-- Path -->
+		<Path Data="M 0.5 0 L 0.5 1" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="2" Alignment="Center">
+				<SolidColor Color="1" />
+			</Stroke>
+		</Path>
+	</Panel>
+	<Panel Width="23.86364%" Height="1.136364%" Alignment="TopLeft" Offset="38.63636%, 50%" Margin="0">
+		<!-- Path -->
+		<Path Data="M 1 0 L 0 0" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="2" Alignment="Center">
+				<SolidColor Color="0.3607843, 0.6705883, 0.9960784, 1" />
+			</Stroke>
+		</Path>
+	</Panel>
+	<Panel Width="2.272727%" Height="23.86364%" Alignment="TopLeft" Offset="48.86364%, 38.63636%" Margin="0">
+		<!-- Path -->
+		<Path Data="M 0.5 0 L 0.5 1" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="2" Alignment="Center">
+				<SolidColor Color="0.3607843, 0.6705883, 0.9960784, 1" />
+			</Stroke>
+		</Path>
+	</Panel>
+	<Panel Width="100%" Height="100%" Alignment="BottomRight" Margin="0">
+		<!-- Oval -->
+		<Path Data="M 0.5 1 C 0.7761423749 1 1 0.7761423749 1 0.5 C 1 0.2238576251 0.7761423749 0 0.5 0 C 0.2238576251 0 0 0.2238576251 0 0.5 C 0 0.7761423749 0.2238576251 1 0.5 1" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Shadow Angle="90" Distance="4" Color="0, 0, 0, 0.22" Size="10" Mode="PerPixel" />
+			<SolidColor Color="0.3607843, 0.6705883, 0.9960784, 1" />
+		</Path>
+	</Panel>
+</Panel>

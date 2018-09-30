@@ -1,0 +1,5 @@
+<Panel ux:Class="Sketch.Text_card_pssowrd" Width="36" Height="24">
+	<Text Color="0.3607843, 0.6705883, 0.9960784, 1" FontSize="20" Value="**76" TextTruncation="None" TextWrapping="Wrap" TextAlignment="Center" Width="100%" Height="100%" Alignment="BottomLeft" Margin="0">
+		<!-- **76 -->
+	</Text>
+</Panel>

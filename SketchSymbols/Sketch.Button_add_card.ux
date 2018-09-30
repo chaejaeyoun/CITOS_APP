@@ -1,0 +1,16 @@
+<Panel ux:Class="Sketch.Button_add_card" Width="250" Height="45" add_card="카드 등록">
+	<string ux:Property="add_card" />
+	<!-- <object ux:Property="Clicked" /> -->
+	<!-- <Callback Handler="{Property Clicked}"/> -->
+	<Text Color="1" FontSize="16" Value="{Property add_card}" TextTruncation="None" TextWrapping="Wrap" TextAlignment="Center" Width="26.8%" Height="46.66667%" Alignment="BottomRight" Offset="-91, -13" Margin="0">
+		<!-- add_card -->
+	</Text>
+	<Panel Width="100%" Height="100%" Alignment="BottomRight" Offset="0, -1" Margin="0">
+		<!-- Rectangle -->
+		<Rectangle CornerRadius="10" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Shadow Angle="90" Distance="4" Color="0, 0, 0, 0.22" Size="10" Mode="PerPixel" />
+			<SolidColor Color="0.3607843, 0.6705883, 0.9960784, 1" />
+		</Rectangle>
+	</Panel>
+</Panel>

@@ -1,0 +1,9 @@
+<Panel ux:Class="Sketch.Icon_SKT" Width="31" Height="64" Text_name="SKT">
+	<string ux:Property="Text_name" />
+	<Text Color="0.3607843, 0.6705883, 0.9960784, 1" FontSize="14" Value="{Property Text_name}" TextTruncation="None" TextWrapping="Wrap" Width="77.41936%" Height="26.5625%" Alignment="BottomLeft" Offset="12.90323%, 0" Margin="0">
+		<!-- Text_name -->
+	</Text>
+	<Image File="images/53c87f58abd452e17d09dde073a25d705ad934d7.png" Width="96.77419%" Height="50.76101%" Alignment="TopLeft" Offset="3.225806%, 0%" Margin="0">
+		<!-- SKT -->
+	</Image>
+</Panel>

@@ -1,0 +1,10 @@
+<Panel ux:Class="Sketch.Top_Bar" Width="375" Height="88">
+	<Panel Width="100%" Height="100%" Alignment="BottomRight" Margin="0">
+		<!-- Rectangle -->
+		<Rectangle Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Shadow Angle="90" Distance="4" Color="0, 0, 0, 0.05678216" Size="10" Mode="PerPixel" />
+			<SolidColor Color="1" />
+		</Rectangle>
+	</Panel>
+</Panel>

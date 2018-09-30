@@ -1,0 +1,6 @@
+<Panel ux:Class="Components.Topbar">
+	<Sketch.Icon_back Alignment="Left" Margin="30,0,0,0"/> 
+	<Sketch.Text_Authorization />
+	<Sketch.Top_Bar />
+
+</Panel>

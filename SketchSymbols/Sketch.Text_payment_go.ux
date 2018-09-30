@@ -1,0 +1,6 @@
+<Panel ux:Class="Sketch.Text_payment_go" Width="109" Height="24" card_information="결제 진행">
+	<string ux:Property="card_information" />
+	<Text Color="0, 0, 0, 1" FontSize="20" Value="{Property card_information}" TextTruncation="None" TextWrapping="Wrap" TextAlignment="Center" Width="68.80734%" Height="100%" Alignment="BottomRight" Offset="-17, 0" Margin="0">
+		<!-- card_information -->
+	</Text>
+</Panel>

@@ -1,0 +1,6 @@
+<Panel ux:Class="Sketch.Text_fingerprint" Width="83" Height="19" fingerprint_text="지문인식완료">
+	<string ux:Property="fingerprint_text" />
+	<Text Color="1" FontSize="16" Value="{Property fingerprint_text}" TextTruncation="None" TextWrapping="Wrap" TextAlignment="Center" Width="100%" Height="100%" Alignment="BottomLeft" Margin="0">
+		<!-- fingerprint_text -->
+	</Text>
+</Panel>

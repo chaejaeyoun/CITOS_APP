@@ -1,0 +1,20 @@
+<Panel ux:Class="Sketch.purchase_history" Width="335" Height="60">
+	<Image File="images/b7d5cfe7270d241a413c07b97c208a761af55788.png" Width="8.955224%" Height="45%" Alignment="TopLeft" Offset="4.776119%, 28.33333%" Margin="0">
+		<!-- store -->
+	</Image>
+	<Panel Width="18.50746%" Height="100%" Alignment="TopLeft" Margin="0">
+		<!-- Rectangle -->
+		<Path Data="M 0 1.7763568394E-16 L 1 1.7763568394E-16 L 1 1 L 0 1 L 0 1.7763568394E-16" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Offset="0%, -1.776357E-14%" Margin="0">
+			<!-- Path -->
+			<SolidColor Color="0.3607843, 0.6705883, 0.9960784, 1" />
+		</Path>
+	</Panel>
+	<Panel Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+		<!-- Rectangle -->
+		<Rectangle CornerRadius="10" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Shadow Angle="90" Distance="4" Color="0, 0, 0, 0.1203861" Size="20" Mode="PerPixel" />
+			<SolidColor Color="1" />
+		</Rectangle>
+	</Panel>
+</Panel>

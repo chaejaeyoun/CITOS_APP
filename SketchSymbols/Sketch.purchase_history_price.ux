@@ -1,0 +1,6 @@
+<Panel ux:Class="Sketch.purchase_history_price" Width="74" Height="19" store_name_copy="- 12,000원">
+	<string ux:Property="store_name_copy" />
+	<Text Color="0, 0, 0, 1" FontSize="16" Value="{Property store_name_copy}" TextTruncation="None" TextWrapping="Wrap" TextAlignment="Right" Width="100%" Height="100%" Alignment="BottomLeft" Margin="0">
+		<!-- store_name_copy -->
+	</Text>
+</Panel>

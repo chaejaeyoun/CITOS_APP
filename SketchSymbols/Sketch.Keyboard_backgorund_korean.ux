@@ -1,0 +1,9 @@
+<Panel ux:Class="Sketch.Keyboard_backgorund_korean" Width="375" Height="296">
+	<Panel Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+		<!-- Rectangle -->
+		<Rectangle Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<SolidColor Color="0.8859747, 0.8859747, 0.8859747, 1" />
+		</Rectangle>
+	</Panel>
+</Panel>

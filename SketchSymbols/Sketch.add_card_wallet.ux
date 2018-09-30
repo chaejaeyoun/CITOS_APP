@@ -1,0 +1,17 @@
+<Panel ux:Class="Sketch.add_card_wallet" Width="371" Height="333">
+	<Panel Width="100%" Height="100%" Alignment="BottomRight" Margin="0">
+		<!-- Rectangle -->
+		<Path Data="M 0 0 L 0.3669338662032 0 C 0.3958111256378 0.06857480269486 0.4401665035701 0.1028622040423 0.5 0.1028622040423 C 0.5598334964299 0.1028622040423 0.6035630700789 0.06857480269486 0.6311887209468 0 L 1 0 L 1 1 L 0 1 L 0 0" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<SolidColor Color="1" />
+		</Path>
+	</Panel>
+	<Panel Width="83.82749%" Height="48.64865%" Alignment="BottomRight" Offset="-29, -171" Margin="0">
+		<!-- Rectangle -->
+		<Path Data="M 0 0 L 0.3412619432842 0 C 0.3757103781724 0.1409593166505 0.4286230637443 0.2114389749758 0.5 0.2114389749758 C 0.5713769362557 0.2114389749758 0.6235430835989 0.1409593166505 0.6564984420298 0 L 1 0 L 1 1 L 0 1 L 0 0" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Shadow Angle="-90" Distance="4" Color="0.6493144, 0.6376188, 0.6376188, 0.22" Size="18" Mode="PerPixel" />
+			<SolidColor Color="1" />
+		</Path>
+	</Panel>
+</Panel>

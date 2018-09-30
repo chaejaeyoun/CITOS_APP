@@ -1,0 +1,9 @@
+<Panel ux:Class="Sketch.Text_birthday" Width="65" Height="24" birthday_typing="801224">
+	<string ux:Property="birthday_typing" />
+	<Panel Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+		<!-- birthday_typing -->
+		<Text Color="0.3607843, 0.6705883, 0.9960784, 1" FontSize="20" Value="{Property birthday_typing}" TextTruncation="None" TextWrapping="Wrap" Width="100%" Height="100%" Alignment="BottomLeft" Margin="0">
+			<!-- birthday_typing -->
+		</Text>
+	</Panel>
+</Panel>

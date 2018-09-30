@@ -1,0 +1,6 @@
+<Panel ux:Class="Sketch.Text_newsagency" Width="37" Height="17" Text_newsagency_="통신사">
+	<string ux:Property="Text_newsagency_" />
+	<Text Color="0.6078922, 0.6078033, 0.6079226, 1" FontSize="14" Value="{Property Text_newsagency_}" TextTruncation="None" TextWrapping="Wrap" Width="100%" Height="100%" Alignment="BottomLeft" Margin="0">
+		<!-- Text_newsagency_ -->
+	</Text>
+</Panel>

@@ -1,0 +1,6 @@
+<Panel ux:Class="Sketch.menu2" Width="37" Height="17" menu2_2="칼국수">
+	<string ux:Property="menu2_2" />
+	<Text Color="0.2902216, 0.2901753, 0.2902375, 1" FontSize="14" Value="{Property menu2_2}" TextTruncation="None" TextWrapping="Wrap" Width="100%" Height="100%" Alignment="BottomLeft" Margin="0">
+		<!-- menu2_2 -->
+	</Text>
+</Panel>

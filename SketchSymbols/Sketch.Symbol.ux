@@ -1,0 +1,19 @@
+<Panel ux:Class="Sketch.Symbol" Width="512" Height="512">
+	<Image File="images/bdd85fa1a27b384ab47dc4eb46f875cc92ebb86a.png" Width="47.36328%" Height="62.69531%" Alignment="BottomRight" Offset="-134, -95" Margin="0">
+		<!-- logo -->
+	</Image>
+	<Panel Width="73.32462%" Height="76.576%" Alignment="BottomRight" Offset="0, -0.4821167" Margin="0" Opacity="0.300668">
+		<!-- Path -->
+		<Path Data="M 0.2739284854514 1 L 0 0.7445598977727 L 0.06619854886476 0.5260692324977 L 0.5617565967026 0.5260692324977 L 0.6328582017293 0 L 1 0.38164540251 L 1 1 L 0.2739284854514 1" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<SolidColor Color="0.2901961, 0.5568628, 0.8705882, 1" />
+		</Path>
+	</Panel>
+	<Panel Width="100%" Height="100%" Alignment="BottomRight" Margin="0">
+		<!-- Rectangle -->
+		<Rectangle CornerRadius="100" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<SolidColor Color="0.3607843, 0.6705883, 0.9960784, 1" />
+		</Rectangle>
+	</Panel>
+</Panel>

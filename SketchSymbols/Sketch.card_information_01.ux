@@ -1,0 +1,5 @@
+<Panel ux:Class="Sketch.card_information_01" Width="64" Height="17">
+	<Text Color="0.6078922, 0.6078033, 0.6079226, 1" FontSize="13" Value="카드사 선택" TextTruncation="None" TextWrapping="Wrap" Width="100%" Height="100%" Alignment="BottomLeft" Margin="0">
+		<!-- Cardnumber Copy -->
+	</Text>
+</Panel>

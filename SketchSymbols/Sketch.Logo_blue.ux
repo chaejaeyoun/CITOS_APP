@@ -1,0 +1,5 @@
+<Panel ux:Class="Sketch.Logo_blue" Width="243" Height="321">
+	<Image File="images/bdd85fa1a27b384ab47dc4eb46f875cc92ebb86a.png" Width="99.79424%" Height="100%" Alignment="TopLeft" Margin="0">
+		<!-- logo -->
+	</Image>
+</Panel>

@@ -1,0 +1,42 @@
+<Panel ux:Class="Sketch.Icon_QR_scan_camera" Width="244" Height="180">
+	<Panel Width="14.7541%" Height="20%" Alignment="BottomRight" Offset="-0.8000031, -144" Margin="0">
+		<!-- Path -->
+		<Path Data="M 0 1 L 0 0 L 1 0" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="3.6" Alignment="Center">
+				<SolidColor Color="0.3607843, 0.6705883, 0.9960784, 1" />
+			</Stroke>
+		</Path>
+		<Rotation DegreesY="-180" />
+	</Panel>
+	<Panel Width="14.7541%" Height="20%" Alignment="BottomRight" Offset="-0.8000031, 0" Margin="0">
+		<!-- Path -->
+		<Path Data="M 0 1 L 0 0 L 1 0" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="3.6" Alignment="Center">
+				<SolidColor Color="0.3607843, 0.6705883, 0.9960784, 1" />
+			</Stroke>
+		</Path>
+		<Rotation DegreesX="-180" />
+		<Rotation DegreesY="-180" />
+	</Panel>
+	<Panel Width="14.7541%" Height="20%" Alignment="BottomRight" Offset="-207.2, 0" Margin="0">
+		<!-- Path -->
+		<Path Data="M 0 1 L 0 0 L 1 0" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="3.6" Alignment="Center">
+				<SolidColor Color="0.3607843, 0.6705883, 0.9960784, 1" />
+			</Stroke>
+		</Path>
+		<Rotation DegreesX="-180" />
+	</Panel>
+	<Panel Width="14.7541%" Height="20%" Alignment="BottomRight" Offset="-207.2, -144" Margin="0">
+		<!-- Path -->
+		<Path Data="M 0 1 L 0 0 L 1 0" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="3.6" Alignment="Center">
+				<SolidColor Color="0.3607843, 0.6705883, 0.9960784, 1" />
+			</Stroke>
+		</Path>
+	</Panel>
+</Panel>

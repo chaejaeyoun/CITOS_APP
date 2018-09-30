@@ -1,0 +1,6 @@
+<Panel ux:Class="Sketch.Text_payment_card" Width="70" Height="24" Text_payment_card_="B - Card">
+	<string ux:Property="Text_payment_card_" />
+	<Text Color="0.3607843, 0.6705883, 0.9960784, 1" FontSize="20" Value="{Property Text_payment_card_}" TextTruncation="None" TextWrapping="Wrap" TextAlignment="Left" Width="100%" Height="100%" Alignment="BottomLeft" Margin="0">
+		<!-- Text_payment_card_ -->
+	</Text>
+</Panel>

@@ -1,0 +1,96 @@
+<Page ux:Class="CardSetting">
+	<Router ux:Dependency="router" />
+	<JavaScript File="CardSettingJs.js"/>
+
+	<!-- <Sketch.Button_next_off  Alignment="BottomCenter" Margin="30"/>  -->
+	<DockPanel>
+		<Panel Dock="Top"> 
+			<!-- <Sketch.logo /> -->
+			<Sketch.Icon_back Anchor="1700%,30%" HitTestMode="LocalBoundsAndChildren" Clicked="{back}"/>
+			<Sketch.Logo_white Size="25" Alignment="Left" Color="Blue" Anchor="-490%,30%"/>
+			<Sketch.App_name_blue Size="90" Alignment="Left" Color="Blue" Anchor="-175%,42%"/>
+			<Sketch.Icon_QR_camera Size="25" Alignment="Right" Color="Blue" Anchor="180%,30%"/>
+
+			<Sketch.Top_Bar />
+
+		</Panel>
+
+<!-- 		<Sketch.Button_add Alignment="BottomCenter" Margin="50"/>
+ -->
+
+		<Panel Height="500">
+			<StackPanel>
+				<Panel>
+
+					<StackPanel>
+						<Panel>
+
+							<StackPanel>
+								<Panel>
+
+									<StackPanel>
+										<Panel>
+											<!-- +버튼 -->
+											<Sketch.Button_add Alignment="BottomCenter" Anchor="50%, -80%" HitTestMode="LocalBoundsAndChildren" Clicked="{Setting}" />
+											<Sketch.add_card_wallet Anchor="50%, -80%"/>
+										
+										</Panel>
+									</StackPanel>
+						
+									<!-- W카드 -->
+									<Sketch.add_card_wallet Anchor="50%, -45%"/>
+									<Sketch.Card_W_card Alignment="Center" Anchor="50%, -46%"/>
+
+								</Panel>
+							</StackPanel>
+						
+							<!-- B카드 -->
+							<Sketch.add_card_wallet Anchor="50%,-8%"/>
+							<Sketch.Card_B_card Alignment="Center" Anchor="50%, 25%"/>
+						
+						</Panel>
+					</StackPanel>
+
+					<!-- S카드 -->
+					<Sketch.add_card_wallet Anchor="50%,30%"/>
+					<Sketch.Card_S_card  Alignment="Top" />
+
+				</Panel>
+			</StackPanel>
+		
+		</Panel>
+	
+
+		<!-- <ScrollView> -->
+			
+			<!-- <Sketch.add_card_wallet  /> -->
+			<!-- <Sketch.add_card_wallet  /> -->
+		<!-- </ScrollView> -->
+				
+			<!-- 	<Panel>
+					<Sketch.add_card_wallet Alignment="Center"/>
+					<DockPanel>
+					
+						<Sketch.Card_S_card/>
+					
+					</DockPanel>
+					<Sketch.Card_B_card />
+					<Sketch.Card_W_card />
+				</Panel> -->
+				
+				
+			
+			<!-- <Sketch.add_card_wallet/> -->
+
+		<!-- 	<Sketch.Card_B_card />
+			<Sketch.add_card_wallet/>
+
+			<Sketch.Card_W_card />
+			 -->
+
+		<!-- <Sketch.add_card_wallet/> -->
+	</DockPanel>
+
+	<!-- <Sketch.add_card_nothing Alignment="Center"/> -->
+	<Sketch.Background />
+</Page>

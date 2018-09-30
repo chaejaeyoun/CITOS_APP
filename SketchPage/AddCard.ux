@@ -1,0 +1,37 @@
+<Page ux:Class="AddCard">
+	<Router ux:Dependency="router" />
+	<JavaScript File="AddCardJS.js"/>
+
+	<!-- 카드등록 버튼 -->
+	<Sketch.Button_add_card Alignment="BottomCenter" Margin="30" Clicked="{Add}"/> 
+
+	<DockPanel>
+		<Panel Dock="Top"> 
+			<Sketch.Icon_back Anchor="1700%,30%" HitTestMode="LocalBoundsAndChildren" Clicked="{back}"/>
+			<Sketch.Logo_white Size="25" Alignment="Left" Color="Blue" Anchor="-490%,30%"/>
+			<Sketch.App_name_blue Size="90" Alignment="Left" Color="Blue" Anchor="-175%,42%"/>
+			<Sketch.Icon_QR_camera Size="25" Alignment="Right" Color="Blue" Anchor="180%,30%" Clicked="{scan}"/>
+
+			<Sketch.Top_Bar />
+
+		</Panel>
+		
+		<Panel  Dock="Bottom">
+			<StackPanel>
+
+				
+				<Sketch.Text_no_card Alignment="BottomCenter" Anchor="50%,-300%"/>
+				<Sketch.Text_no_card_add Alignment="BottomCenter" Anchor="50%,-250%" />
+
+			</StackPanel>
+
+			<Sketch.add_card_wallet/>
+
+		</Panel>
+		
+	</DockPanel>
+
+	<Sketch.add_card_nothing Alignment="Center"/>
+	<Sketch.Icon_plus Anchor="50%,150%"/>
+	<Sketch.Background />
+</Page>

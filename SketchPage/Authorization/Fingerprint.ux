@@ -1,0 +1,29 @@
+<Panel ux:Class="Authorization.Fingerprint">
+	<Router ux:Dependency="router" />
+	
+	<StackPanel Alignment="BottomCenter"  Orientation="Horizontal" >
+	<Sketch.Button_ok  Alignment="Left" /> 
+	<Sketch.Button_self  Alignment="Right" /> 
+	</StackPanel>
+
+	
+	<DockPanel>
+		<Components.Topbar Dock="Top" />
+	
+		
+		<Panel  Dock="Top">
+			<StackPanel>
+				<Sketch.Text_fingerprint />
+				<Sketch.Icon_infographic />
+				
+
+			</StackPanel>
+
+
+		</Panel>
+		
+	</DockPanel>
+
+	<Sketch.Background />
+
+</Panel>

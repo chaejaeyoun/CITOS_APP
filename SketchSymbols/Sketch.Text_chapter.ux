@@ -1,0 +1,6 @@
+<Panel ux:Class="Sketch.Text_chapter" Width="29" Height="17" text="3 / 3">
+	<string ux:Property="text" />
+	<Text Color="0.6078922, 0.6078033, 0.6079226, 1" FontSize="14" Value="{Property text}" TextTruncation="None" TextWrapping="Wrap" TextAlignment="Center" Width="96.55173%" Height="100%" Alignment="BottomLeft" Offset="1.724138%, 0" Margin="0">
+		<!-- text -->
+	</Text>
+</Panel>

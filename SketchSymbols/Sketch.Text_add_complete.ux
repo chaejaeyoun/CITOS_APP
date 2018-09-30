@@ -1,0 +1,22 @@
+<Panel ux:Class="Sketch.Text_add_complete" Width="74" Height="127" card_name="등록 완료">
+	<string ux:Property="card_name" />
+	<Text Color="1" FontSize="20" Value="{Property card_name}" TextTruncation="None" TextWrapping="Wrap" TextAlignment="Center" Width="101.3513%" Height="18.89764%" Alignment="BottomLeft" Offset="-1.351351%, 0" Margin="0">
+		<!-- card_name -->
+	</Text>
+	<Panel Width="40.2457%" Height="17.78292%" Alignment="TopLeft" Offset="29.20147%, 20.40802%" Margin="0">
+		<!-- Path -->
+		<Path Data="M 0 0.4543173263374 L 0.3924401003373 1 L 1 0" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="6" Alignment="Center">
+				<SolidColor Color="0.3607843, 0.6705883, 0.9960784, 1" />
+			</Stroke>
+		</Path>
+	</Panel>
+	<Panel Width="99.49632%" Height="57.97423%" Alignment="TopLeft" Offset="0.1351351%, 0.2147459%" Margin="0">
+		<!-- Oval -->
+		<Path Data="M 0.5 1 C 0.7761423749 1 1 0.7761423749 1 0.5 C 1 0.2238576251 0.7761423749 0 0.5 0 C 0.2238576251 0 0 0.2238576251 0 0.5 C 0 0.7761423749 0.2238576251 1 0.5 1" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<SolidColor Color="1" />
+		</Path>
+	</Panel>
+</Panel>

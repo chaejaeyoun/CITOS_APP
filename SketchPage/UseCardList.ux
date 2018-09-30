@@ -1,0 +1,60 @@
+<Page ux:Class="UseCardList">
+	<Router ux:Dependency="router" />
+	
+		<JavaScript File="UseCardListJs.js"/>
+
+		<!-- 하단 추가 버튼 -->
+		<Sketch.Button_add Alignment="BottomCenter" Margin="20" HitTestMode="LocalBoundsAndChildren" Clicked="{Addcardt}">
+			
+		</Sketch.Button_add> 
+		<!-- <Sketch.Button_add Alignment="BottomCenter" Margin="20" Clicked="{Addcardt}"/>  -->
+
+	<Panel>
+		<StackPanel>
+			<Panel>
+				<Sketch.Logo_white Size="25" Alignment="Left" Color="Blue" Anchor="-70%,30%"/>
+				<Sketch.App_name_blue Size="90" Alignment="Left" Color="Blue" Anchor="-60%,42%"/>
+				<Sketch.Icon_QR_camera Size="25" Alignment="Right" Color="Blue" Anchor="180%,30%"/>
+				<Sketch.Icon_setting Size="25" Alignment="Right" Color="Blue" Anchor="350%,30%"/>
+				<Sketch.Top_Bar/>
+
+			</Panel>
+			<!-- <Sketch.card_exist /> -->
+			<Panel Height="250">
+				<Sketch.Button_x_white Alignment="BottomCenter" Anchor="50%,115%"/>
+
+				<PageControl  InactiveState="Unchanged"  >
+					<NavigationMotion GotoEasing="QuadraticOut" GotoDuration="0.3" />
+					<Panel>
+						<Sketch.Card_B_card  />
+					</Panel>
+					<Panel>
+
+						<Sketch.Card_W_card  />
+					</Panel>
+					<Panel>
+						<Sketch.Card_S_card  />
+
+					</Panel>
+				</PageControl>
+
+				
+			</Panel>
+
+			<Panel Height="30" Margin="20, 50, 0, 0">
+				<Sketch.card_setting_text Alignment="Left" Size="110"/>
+				<Sketch.balance Alignment="Right" Size="150" Margin="0,40,10,0"/>
+
+			</Panel>
+
+			<Panel Height="0" >
+				<Sketch.purchase_history_price Alignment="Right" Anchor="150%,50%"/>
+				<Sketch.purchase_history_place Size="50" Alignment="Left" Anchor="-180%,17%"/>
+				<Sketch.purchase_history/>
+					
+			</Panel>
+
+			</StackPanel>
+
+		</Panel>
+</Page>

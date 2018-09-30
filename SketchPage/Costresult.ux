@@ -1,0 +1,19 @@
+<Page ux:Class="Costresult">
+	<Router ux:Dependency="router" />
+	<JavaScript File="CostresultJs.js"/>
+
+
+	<Panel>
+		<Panel Alignment="Bottom">
+
+
+			<Sketch.payment_card Anchor="155%, 250%" />
+			<Sketch.payment_remain Alignment="Bottom"/>
+		</Panel>
+
+ 		<Sketch.Icon_x_white Anchor="-600%, 1350%" HitTestMode="LocalBoundsAndChildren" Clicked="{back}"/>
+		<Sketch.payment_complete_background Alignment="Top"/>
+
+	</Panel>
+
+</Page>

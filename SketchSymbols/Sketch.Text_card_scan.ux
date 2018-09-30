@@ -1,0 +1,6 @@
+<Panel ux:Class="Sketch.Text_card_scan" Width="179" Height="19" text="카드번호 스캔이 가능합니다.">
+	<string ux:Property="text" />
+	<Text Color="1" FontSize="16" Value="{Property text}" TextTruncation="None" TextWrapping="Wrap" TextAlignment="Center" Width="99.44134%" Height="100%" Alignment="BottomLeft" Offset="0.2793296%, 0" Margin="0">
+		<!-- text -->
+	</Text>
+</Panel>

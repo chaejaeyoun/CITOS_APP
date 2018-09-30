@@ -1,0 +1,6 @@
+<Panel ux:Class="Sketch.card_setting_text" Width="103" Height="21" text="최근 사용 내역">
+	<string ux:Property="text" />
+	<Text Color="0, 0, 0, 1" FontSize="18" Value="{Property text}" TextTruncation="None" TextWrapping="Wrap" Width="100%" Height="100%" Alignment="BottomLeft" Margin="0">
+		<!-- text -->
+	</Text>
+</Panel>

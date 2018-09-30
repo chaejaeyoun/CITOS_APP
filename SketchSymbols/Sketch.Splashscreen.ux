@@ -1,0 +1,9 @@
+<Panel ux:Class="Sketch.Splashscreen" Width="375" Height="667">
+	<Panel Width="100%" Height="100%" Alignment="BottomRight" Margin="0">
+		<!-- Rectangle -->
+		<Rectangle Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<SolidColor Color="0.3607843, 0.6705883, 0.9960784, 1" />
+		</Rectangle>
+	</Panel>
+</Panel>

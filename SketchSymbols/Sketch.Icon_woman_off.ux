@@ -1,0 +1,9 @@
+<Panel ux:Class="Sketch.Icon_woman_off" Width="76" Height="121" Text_name="여">
+	<string ux:Property="Text_name" />
+	<Text Color="0.6078922, 0.6078033, 0.6079226, 1" FontSize="18" Value="{Property Text_name}" TextTruncation="None" TextWrapping="Wrap" Width="21.05263%" Height="17.35537%" Alignment="BottomLeft" Offset="39.47368%, 0" Margin="0">
+		<!-- Text_name -->
+	</Text>
+	<Image File="images/ef536a2052e5d10f1af8e2da4ea2f620a7f75c48.png" Width="100%" Height="62.80992%" Alignment="TopLeft" Margin="0">
+		<!-- femenine copy -->
+	</Image>
+</Panel>

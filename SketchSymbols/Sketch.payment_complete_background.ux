@@ -1,0 +1,32 @@
+<Panel ux:Class="Sketch.payment_complete_background" Width="390" Height="667" card_name="결제완료">
+	<string ux:Property="card_name" />
+	<Text Color="1" FontSize="20" Value="{Property card_name}" TextTruncation="None" TextWrapping="Wrap" TextAlignment="Center" Width="18.4%" Height="3.598201%" Alignment="BottomLeft" Offset="40.8%, -451" Margin="0">
+		<!-- card_name -->
+	</Text>
+	<Panel Width="7.941818%" Height="3.385953%" Alignment="TopLeft" Offset="46.02909%, 17.22911%" Margin="0">
+		<!-- Path -->
+		<Path Data="M 0 0.4543173263374 L 0.3924401003373 1 L 1 0" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="6" Alignment="Center">
+				<SolidColor Color="0.3607843, 0.6705883, 0.9960784, 1" />
+			</Stroke>
+		</Path>
+	</Panel>
+	<Panel Width="19.63394%" Height="11.03857%" Alignment="TopLeft" Offset="40.29333%, 13.38422%" Margin="0">
+		<!-- Oval -->
+		<Path Data="M 0.5 1 C 0.7761423749 1 1 0.7761423749 1 0.5 C 1 0.2238576251 0.7761423749 0 0.5 0 C 0.2238576251 0 0 0.2238576251 0 0.5 C 0 0.7761423749 0.2238576251 1 0.5 1" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<SolidColor Color="1" />
+		</Path>
+	</Panel>
+	<Panel Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+		<!-- background -->
+		<Panel Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Rectangle -->
+			<Rectangle Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+				<!-- Path -->
+				<SolidColor Color="0.3607843, 0.6705883, 0.9960784, 1" />
+			</Rectangle>
+		</Panel>
+	</Panel>
+</Panel>

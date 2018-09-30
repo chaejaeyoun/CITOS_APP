@@ -1,0 +1,45 @@
+<Panel ux:Class="Sketch.Icon_man_off" Width="78" Height="113" Text_name="남">
+	<string ux:Property="Text_name" />
+	<Panel Width="20.93626%" Height="0.8849558%" Alignment="TopLeft" Offset="66.60858%, 0.5350914%" Margin="0">
+		<!-- Path -->
+		<Path Data="M 1 0.9845755757383 L 0 0" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="6" Alignment="Center">
+				<SolidColor Color="0.8862745, 0.8862745, 0.8862745, 1" />
+			</Stroke>
+		</Path>
+	</Panel>
+	<Panel Width="16.62893%" Height="8.823507%" Alignment="TopLeft" Offset="81.14799%, 4.256954%" Margin="0">
+		<!-- Path -->
+		<Path Data="M 1 1 L 0 0" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="6" Alignment="Center">
+				<SolidColor Color="0.8862745, 0.8862745, 0.8862745, 1" />
+			</Stroke>
+		</Path>
+		<Rotation Degrees="222" />
+	</Panel>
+	<Panel Width="2.564103%" Height="21.23894%" Alignment="TopLeft" Offset="75.98112%, -1.214587%" Margin="0">
+		<!-- Path -->
+		<Path Data="M 0.5 1 L 0.5 0" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="6" Alignment="Center">
+				<SolidColor Color="0.8862745, 0.8862745, 0.8862745, 1" />
+			</Stroke>
+		</Path>
+		<Rotation Degrees="222" />
+	</Panel>
+	<Panel Width="65.38461%" Height="45.13274%" Alignment="TopLeft" Offset="13.64047%, 9.88902%" Margin="0">
+		<!-- Oval -->
+		<Path Data="M 0.5 1 C 0.7761423749 1 1 0.7761423749 1 0.5 C 1 0.2238576251 0.7761423749 0 0.5 0 C 0.2238576251 0 0 0.2238576251 0 0.5 C 0 0.7761423749 0.2238576251 1 0.5 1" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="6" Alignment="Inside">
+				<SolidColor Color="0.8862745, 0.8862745, 0.8862745, 1" />
+			</Stroke>
+		</Path>
+		<Rotation Degrees="222" />
+	</Panel>
+	<Text Color="0.6078922, 0.6078033, 0.6079226, 1" FontSize="18" Value="{Property Text_name}" TextTruncation="None" TextWrapping="Wrap" Width="20.51282%" Height="18.58407%" Alignment="BottomLeft" Offset="44.8718%, 0" Margin="0">
+		<!-- Text_name -->
+	</Text>
+</Panel>

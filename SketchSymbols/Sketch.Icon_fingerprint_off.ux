@@ -1,0 +1,14 @@
+<Panel ux:Class="Sketch.Icon_fingerprint_off" Width="192" Height="192">
+	<Image File="images/937cfa57a325f26aef9dc25e813a75a5efefcf81.png" Width="52.08333%" Height="63.12274%" Alignment="TopLeft" Offset="23.95833%, 18.22917%" Margin="0">
+		<!-- fingerprint -->
+	</Image>
+	<Panel Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+		<!-- Oval -->
+		<Path Data="M 0.5 1 C 0.7761423749 1 1 0.7761423749 1 0.5 C 1 0.2238576251 0.7761423749 0 0.5 0 C 0.2238576251 0 0 0.2238576251 0 0.5 C 0 0.7761423749 0.2238576251 1 0.5 1" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="3" Alignment="Center">
+				<SolidColor Color="0.7894877, 0.7894877, 0.7894877, 1" />
+			</Stroke>
+		</Path>
+	</Panel>
+</Panel>

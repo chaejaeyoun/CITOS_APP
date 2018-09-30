@@ -1,0 +1,39 @@
+<App>
+	<Router ux:Name="router" />
+	<ClientPanel>
+		  <StatusBarBackground/>
+
+	     <Navigator DefaultPath="Splash">
+	     	<!-- Page/Authorization -->
+	     		<Authorization.Name  ux:Template="AuthName" router="router"/>
+	     		<Authorization.Gender  ux:Template="AuthGender" router="router"/>
+	     		<Authorization.Birth  ux:Template="AuthBirth" router="router"/>
+	     		<Authorization.Phone ux:Template="AuthPhone" router="router" />
+	     		<Authorization.CheckNumber ux:Template="AuthCheckNumber" router="router" />
+	     		<Authorization.Fingerprint ux:Template="AuthFingerprintckNumber" router="router" />
+
+
+	     		<Authorization.Complete ux:Template="AuthComplete" router="router" />
+
+
+	     		<!-- Enroll a new FingerPrint  -->
+	     		<Fingerprint.Add ux:Template="FingerprintAdd" router="router" />
+
+		     	<AddCard  ux:Template="AddCard" router="router"/>
+		     	
+	     		<UseCardList  ux:Template="UseCardList" router="router"/>
+				<CardSetting  ux:Template="CardSetting" router="router"/>
+				<Splash  ux:Template="Splash" router="router"/>
+				<EnrollmentCard  ux:Template="EnrollmentCard" router="router"/>
+				<Qrscan  ux:Template="Qrscan" router="router"/>
+				<Costpassword  ux:Template="Costpassword" router="router"/>
+				<Costresult  ux:Template="Costresult" router="router"/>
+				<LogIn  ux:Template="LogIn" router="router"/>
+				<Signup  ux:Template="Signup" router="router"/>
+
+
+
+	     </Navigator>
+
+	</ClientPanel>
+</App>

@@ -1,0 +1,6 @@
+<Panel ux:Class="Sketch.Text_Authorization" Width="109" Height="24" card_information="본인인증">
+	<string ux:Property="card_information" />
+	<Text Color="0, 0, 0, 1" FontSize="20" Value="{Property card_information}" TextTruncation="None" TextWrapping="Wrap" TextAlignment="Center" Width="63.30275%" Height="100%" Alignment="BottomRight" Offset="-20, 0" Margin="0">
+		<!-- card_information -->
+	</Text>
+</Panel>

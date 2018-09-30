@@ -1,0 +1,6 @@
+<Panel ux:Class="Sketch.balance" Width="146" Height="17" price1="총 지출 금액 : 12,000 원">
+	<string ux:Property="price1" />
+	<Text Color="0.3607843, 0.6705883, 0.9960784, 1" FontSize="14" Value="{Property price1}" TextTruncation="None" TextWrapping="Wrap" TextAlignment="Left" Width="94.52055%" Height="100%" Alignment="BottomLeft" Offset="2.739726%, 0" Margin="0">
+		<!-- price1 -->
+	</Text>
+</Panel>

@@ -1,0 +1,9 @@
+<Panel ux:Class="Sketch.splash_screen_shadow" Width="236" Height="428">
+	<Panel Width="100%" Height="99.88886%" Alignment="TopLeft" Offset="0%, 0.1111415%" Margin="0" Opacity="0.300668">
+		<!-- Path -->
+		<Path Data="M 0.7016883158453 1 L 0 0.2701370961484 L 0.1210279214005 0.1758760043754 L 0.3615830668761 0.163769715693 L 0.4097718135314 0 L 1 0.5847214380303 L 1 1 L 0.7016883158453 1" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Offset="0%, -6.647975E-15%" Margin="0">
+			<!-- Path -->
+			<SolidColor Color="0.2901961, 0.5568628, 0.8705882, 1" />
+		</Path>
+	</Panel>
+</Panel>

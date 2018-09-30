@@ -1,0 +1,6 @@
+<Panel ux:Class="Sketch.Text_phonenumber" Width="117" Height="24" phonenumber="01012345678">
+	<string ux:Property="phonenumber" />
+	<Text Color="0.3607843, 0.6705883, 0.9960784, 1" FontSize="20" Value="{Property phonenumber}" TextTruncation="None" TextWrapping="Wrap" Width="100%" Height="100%" Alignment="BottomLeft" Margin="0">
+		<!-- phonenumber -->
+	</Text>
+</Panel>

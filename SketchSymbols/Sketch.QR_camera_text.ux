@@ -1,0 +1,6 @@
+<Panel ux:Class="Sketch.QR_camera_text" Width="113" Height="15" scan="카드 스캔하여 자동 입력">
+	<string ux:Property="scan" />
+	<Text Color="0.2902216, 0.2901753, 0.2902375, 1" FontSize="11" Value="{Property scan}" TextTruncation="None" TextWrapping="Wrap" TextAlignment="Center" Width="100%" Height="100%" Alignment="BottomLeft" Margin="0">
+		<!-- scan -->
+	</Text>
+</Panel>

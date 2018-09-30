@@ -1,0 +1,38 @@
+<Panel ux:Class="Sketch.Button_x" Width="107" Height="57">
+	<Panel Width="54.96634%" Height="43.85965%" Alignment="TopLeft" Offset="21.49533%, 28.07018%" Margin="0">
+		<!-- Rectangle -->
+		<Path Data="M 0.1977040282165 0 L 1 0 L 1 1 L 0.1977040282165 1 L 0 0.5 L 0.1977040282165 0" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="2" Alignment="Inside">
+				<SolidColor Color="1" />
+			</Stroke>
+		</Path>
+	</Panel>
+	<Panel Width="13.08411%" Height="1.754386%" Alignment="TopLeft" Offset="46.07785%, 50.53211%" Margin="0">
+		<!-- Path -->
+		<Path Data="M 1 0 L 0 0" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="2" Alignment="Center">
+				<SolidColor Color="1" />
+			</Stroke>
+		</Path>
+		<Rotation Degrees="45" />
+	</Panel>
+	<Panel Width="0.9345794%" Height="24.5614%" Alignment="TopLeft" Offset="52.15262%, 39.1286%" Margin="0">
+		<!-- Path -->
+		<Path Data="M 0.5 0 L 0.5 1" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="2" Alignment="Center">
+				<SolidColor Color="1" />
+			</Stroke>
+		</Path>
+		<Rotation Degrees="45" />
+	</Panel>
+	<Panel Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+		<!-- Rectangle -->
+		<Rectangle CornerRadius="10" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<SolidColor Color="0.7466255, 0.7435905, 0.7476616, 1" />
+		</Rectangle>
+	</Panel>
+</Panel>

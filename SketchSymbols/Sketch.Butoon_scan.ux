@@ -1,0 +1,19 @@
+<Panel ux:Class="Sketch.Butoon_scan" Width="65" Height="65">
+	<Panel Width="69.23077%" Height="69.23077%" Alignment="TopLeft" Offset="15.38461%, 15.38461%" Margin="0">
+		<!-- Oval -->
+		<Path Data="M 0.5 1 C 0.7761423749 1 1 0.7761423749 1 0.5 C 1 0.2238576251 0.7761423749 0 0.5 0 C 0.2238576251 0 0 0.2238576251 0 0.5 C 0 0.7761423749 0.2238576251 1 0.5 1" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<SolidColor Color="1" />
+		</Path>
+	</Panel>
+	<Panel Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+		<!-- Oval -->
+		<Path Data="M 0.5 1 C 0.7761423749 1 1 0.7761423749 1 0.5 C 1 0.2238576251 0.7761423749 0 0.5 0 C 0.2238576251 0 0 0.2238576251 0 0.5 C 0 0.7761423749 0.2238576251 1 0.5 1" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<LinearGradient StartPoint="0, 0.2761244" EndPoint="0.8315704, 0.7240611">
+				<GradientStop Color="0.3411656, 0.7452959, 1, 1" Offset="0" />
+				<GradientStop Color="0.3921569, 0.5333334, 0.9882353, 1" Offset="1" />
+			</LinearGradient>
+		</Path>
+	</Panel>
+</Panel>

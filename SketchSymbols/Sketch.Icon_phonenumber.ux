@@ -1,0 +1,12 @@
+<Panel ux:Class="Sketch.Icon_phonenumber" Width="106" Height="106">
+	<Image File="images/f1f6cc73ae15b7b01266773d536bbe93eabd9448.png" Width="58.49057%" Height="58.49057%" Alignment="TopLeft" Offset="20.75472%, 20.75472%" Margin="0">
+		<!-- phone -->
+	</Image>
+	<Panel Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+		<!-- Oval -->
+		<Path Data="M 0.5 1 C 0.7761423749 1 1 0.7761423749 1 0.5 C 1 0.2238576251 0.7761423749 0 0.5 0 C 0.2238576251 0 0 0.2238576251 0 0.5 C 0 0.7761423749 0.2238576251 1 0.5 1" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<SolidColor Color="0.8862745, 0.8862745, 0.8862745, 1" />
+		</Path>
+	</Panel>
+</Panel>

@@ -1,0 +1,5 @@
+<Panel ux:Class="Sketch.Text_fingerprint_percent" Width="74" Height="36">
+	<Text Color="0.3607843, 0.6705883, 0.9960784, 1" FontSize="30" Value="100%" TextTruncation="None" TextWrapping="Wrap" TextAlignment="Center" Width="98.64865%" Height="100%" Alignment="BottomLeft" Offset="0.6756757%, 0" Margin="0">
+		<!-- 100 -->
+	</Text>
+</Panel>

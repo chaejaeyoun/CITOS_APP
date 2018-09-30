@@ -1,0 +1,13 @@
+<Panel ux:Class="Sketch.Button_next" Width="107" Height="57" Text_next="다음">
+	<string ux:Property="Text_next" />
+	<Text Color="1" FontSize="18" Value="{Property Text_next}" TextTruncation="None" TextWrapping="Wrap" TextAlignment="Center" Width="39.02439%" Height="36.84211%" Alignment="BottomLeft" Offset="31.70732%, -17.32143" Margin="0">
+		<!-- Text_next -->
+	</Text>
+	<Panel Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+		<!-- Rectangle -->
+		<Rectangle CornerRadius="10" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<SolidColor Color="0.3607843, 0.6705883, 0.9960784, 1" />
+		</Rectangle>
+	</Panel>
+</Panel>

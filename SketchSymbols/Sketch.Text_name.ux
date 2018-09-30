@@ -1,0 +1,6 @@
+<Panel ux:Class="Sketch.Text_name" Width="52" Height="24" name="김주문">
+	<string ux:Property="name" />
+	<Text Color="0.3607843, 0.6705883, 0.9960784, 1" FontSize="20" Value="{Property name}" TextTruncation="None" TextWrapping="Wrap" Width="100%" Height="100%" Alignment="BottomLeft" Margin="0">
+		<!-- name -->
+	</Text>
+</Panel>

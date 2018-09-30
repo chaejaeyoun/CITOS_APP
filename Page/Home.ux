@@ -1,0 +1,35 @@
+<Page ux:Class="Home">
+	<Router ux:Dependency="router" />
+	<JavaScript File="Homejs.js" />
+		<Grid>
+			<DockPanel Background="#fff">
+				<DockPanel ux:Name="topPanel" Dock="Top" Background="#333">
+		            <Button Text="&lt; Back" Dock="Left">
+		                <Clicked>
+		                    <Callback Handler="{goBack}" />
+		                </Clicked>
+		            </Button>
+		        </DockPanel>
+				
+				<StackPanel>
+					<Panel Width="300" Height="70" Margin="20" Clicked="{GetClicked}" >
+						<Text Value="GET" Color="#fff" Alignment="Center" FontSize="20"/>
+						<Rectangle  Color="#000" />
+					</Panel>
+
+					<Panel Width="300" Height="70" Margin="20" Clicked="{QRClicked}" >
+						<Text Value="QR-Code" Color="#fff" Alignment="Center" FontSize="20"/>
+						<Rectangle  Color="#e77" />
+					</Panel>
+
+					<Panel Width="300" Height="70" Margin="20" Clicked="{CardClicked}" >
+						<Text Value="Card-Set" Color="#fff" Alignment="Center" FontSize="20"/>
+						<Rectangle  Color="#D1d" />
+					</Panel>
+
+				</StackPanel>
+
+			</DockPanel>
+		</Grid>
+
+</Page>

@@ -1,0 +1,5 @@
+<Panel ux:Class="Sketch.Icon_QR_camera" Width="23" Height="21">
+	<Image File="images/486d49615623f26d3e2e275548c8e1113fd89759.png" Width="95.65218%" Height="95.2381%" Alignment="TopLeft" Offset="2.173913%, 2.380952%" Margin="0">
+		<!-- QR_camera_icon -->
+	</Image>
+</Panel>

@@ -1,0 +1,14 @@
+<Page ux:Class="Splash">
+	<Router ux:Dependency="router" />
+	
+	<JavaScript File="SplashJs.js"/>
+
+
+	<StackPanel Alignment="Center">
+		
+		<Sketch.Logo_white Height="100" />
+		<Sketch.App_name_white /> 
+	
+	</StackPanel>
+	<Sketch.Splashscreen Clicked="{go}" />
+</Page>

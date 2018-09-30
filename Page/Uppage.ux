@@ -1,0 +1,55 @@
+<Page ux:Class="Uppage">
+	<Router ux:Dependency="router" />
+			<JavaScript File="Upjs.js" />
+			<Grid>
+				<DockPanel Background="#fff">
+					<DockPanel ux:Name="topPanel" Dock="Top" Background="#333">
+			            <Button Text="&lt; Back" Dock="Left">
+			                <Clicked>
+			                    <Callback Handler="{goBack}" />
+			                </Clicked>
+			            </Button>
+			        </DockPanel>
+				</DockPanel>
+				
+				<StackPanel>
+					<!-- ID -->
+					<TextInput Row="0" Column="1" PlaceholderText="ID" Value="{saveid}" PlaceholderColor="#999" TextColor="#000" CaretColor="#000" />
+					<Rectangle Row="0" Column="0" Alignment="Bottom" ColumnSpan="2" Height="2" Color="#000"/>
+
+					<!-- Password -->
+					<TextInput Row="1" Column="1" PlaceholderText="PW" Value="{savepassword}" PlaceholderColor="#999" TextColor="#000" CaretColor="#000" IsPassword="true"/>
+					<Rectangle Row="1" Column="0" Alignment="Bottom" ColumnSpan="2" Height="2" Color="#000"/>
+
+					<!-- Name -->
+					<TextInput Row="0" Column="1" PlaceholderText="Name" Value="{savename}" PlaceholderColor="#999" TextColor="#000" CaretColor="#000" />
+					<Rectangle Row="0" Column="0" Alignment="Bottom" ColumnSpan="2" Height="2" Color="#000"/>
+
+					<!-- Age -->
+					<TextInput Row="0" Column="1" PlaceholderText="Age" Value="{saveage}" PlaceholderColor="#999" TextColor="#000" CaretColor="#000" />
+					<Rectangle Row="0" Column="0" Alignment="Bottom" ColumnSpan="2" Height="2" Color="#000"/>
+
+					<!-- Sex -->
+					<TextInput Row="0" Column="1" PlaceholderText="Sex" Value="{savesex}" PlaceholderColor="#999" TextColor="#000" CaretColor="#000" />
+					<Rectangle Row="0" Column="0" Alignment="Bottom" ColumnSpan="2" Height="2" Color="#000"/>
+
+					
+
+					<!-- Save -->
+					<Panel Width="150" Height="50" Margin="20" Alignment="Center">
+						<Text Value="Save" Color="#fff" Alignment="Center" FontSize="20"/>
+						<Rectangle  Color="#000" />
+						<Clicked>
+							<Callback Handler="{Save}"/>
+
+		 				</Clicked>
+					</Panel>
+
+				</StackPanel>
+
+			</Grid>
+
+
+
+
+</Page>

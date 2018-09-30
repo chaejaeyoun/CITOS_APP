@@ -1,0 +1,5 @@
+<Panel ux:Class="Sketch.App_name_white" Width="173" Height="51">
+	<Image File="images/b63c5654af21321d28790ba50657d6fcbcbc14b4.png" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+		<!-- app_name -->
+	</Image>
+</Panel>

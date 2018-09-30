@@ -1,0 +1,8 @@
+<Panel ux:Class="Authorization.Complete">
+		<Router ux:Dependency="router" />
+	
+	<Sketch.Text_add_complete />
+	<Sketch.Button_payment />
+	<Sketch.Splashscreen />
+
+</Panel>

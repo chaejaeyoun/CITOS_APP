@@ -1,0 +1,8 @@
+<Panel ux:Class="Sketch.Icon_foreigner_on" Width="113" Height="120">
+	<Image File="images/9c0bdf27f9f729217cd3f9b6bd6089d1e95e4637.png" Width="96.46017%" Height="60%" Alignment="TopLeft" Offset="1.769912%, 0%" Margin="0">
+		<!-- icon -->
+	</Image>
+	<Text Color="0.3607843, 0.6705883, 0.9960784, 1" FontSize="18" Value="외국인" TextTruncation="None" TextWrapping="Wrap" Width="41.59292%" Height="17.5%" Alignment="BottomLeft" Offset="29.20354%, 0" Margin="0">
+		<!-- Text_name Copy -->
+	</Text>
+</Panel>

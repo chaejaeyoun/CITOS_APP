@@ -1,0 +1,85 @@
+<Page ux:Class="EnrollmentCard">
+	<Router ux:Dependency="router" />
+	<JavaScript File="EnrollmentCardJS.js"/>
+
+	<!--다음 버튼-->
+	<Sketch.Button_next_off  Alignment="BottomCenter" Margin="30" Clicked="{SaveCard}"/> 
+	
+	<DockPanel>
+		<Panel Dock="Top"> 
+			<!-- 카드정보 입력 -->
+			<Sketch.Text_card_information />
+			<!-- 뒤로가기 버튼 -->
+			<Sketch.Icon_back Anchor="1700%,70%" HitTestMode="LocalBoundsAndChildren" Clicked="{back}"/>
+			<Sketch.Icon_QR_camera Size="25" Alignment="Right" Color="Blue" Anchor="180%,30%"/>
+
+			<Sketch.Top_Bar />
+
+		</Panel>
+		
+		<Panel  Dock="Top">
+			<StackPanel>
+				<Panel Height="60">
+					<Sketch.card_information_01 Anchor="200%,0%"/>
+				</Panel>
+
+				<PageControl  InactiveState="Unchanged" >
+					<NavigationMotion GotoEasing="QuadraticOut" GotoDuration="0.3" />
+					<Panel>
+						<Sketch.No_Card_S_card  />
+						
+					</Panel>
+					<Panel>
+
+						<Sketch.No_Card_W_card  />
+					</Panel>
+					<Panel>
+						
+						<Sketch.No_Card_B_card  />
+					</Panel>
+				</PageControl>
+
+
+				<!-- 카드스캔하여 자동입력 -->				
+				<Panel>
+					<Sketch.Icon_QR_camera Color="Blue" Anchor="300%,0%"/>
+					<Sketch.QR_camera_text Anchor="35%,-40%" /> 
+				</Panel>
+
+				
+
+				<Panel>
+					<Sketch.Text_card_number Height="100" Anchor="135%,45%">
+						<TextInput Row="0" Column="1" Width="200" Value="{Cardnum}" TextColor="#000" CaretColor="#000" Anchor="22%,35%"/>
+
+					</Sketch.Text_card_number>
+				</Panel>
+
+				<Panel>
+					<Sketch.Text_card_password Height="60" Anchor="135%,45%">
+						<TextInput Row="0" Column="1" Value="{Cardpassword}" TextColor="#000" CaretColor="#000" Anchor="50%,35%"/>
+					</Sketch.Text_card_password>
+				</Panel>
+
+				<Panel>
+					<Sketch.Text_card_date  Anchor="135%,0%">
+						<TextInput Row="0" Column="1" Value="{DateMY}" TextColor="#000" CaretColor="#000" Anchor="50%,40%"/>
+					</Sketch.Text_card_date>
+
+					<Sketch.Text_card_CVV Anchor="-30%,0%">
+						<TextInput Row="0" Column="1" Value="{CVVnum}" TextColor="#000" CaretColor="#000" Anchor="50%,40%"/>
+					</Sketch.Text_card_CVV>
+				</Panel>
+
+				
+			</StackPanel>
+
+			<!-- <Sketch.add_card_wallet/> -->
+
+		</Panel>
+		
+	</DockPanel>
+
+	<!-- <Sketch.add_card_nothing Alignment="Center"/> -->
+	<Sketch.Background />
+</Page>

@@ -1,0 +1,6 @@
+<Panel ux:Class="Sketch.Text_no_card" Width="69" Height="24" No_Card="No Card">
+	<string ux:Property="No_Card" />
+	<Text Color="0.3607843, 0.6705883, 0.9960784, 1" FontSize="19" Value="{Property No_Card}" TextTruncation="None" TextWrapping="Wrap" TextAlignment="Center" Width="100%" Height="100%" Alignment="BottomRight" Margin="0">
+		<!-- No_Card -->
+	</Text>
+</Panel>

@@ -1,0 +1,22 @@
+<!-- <Panel ux:Class="Sketch.Text_card_date" Width="29" Height="15" Text_card_number_1="01   20">
+	<string ux:Property="Text_card_number_1" />
+	<Text Color="1" FontSize="12" Value="{Property Text_card_number_1}" TextTruncation="None" TextWrapping="Wrap" TextAlignment="Center" Width="120.6897%" Height="100%" Alignment="BottomLeft" Offset="-10.34483%, 0" Margin="0">
+		Text_card_number_1
+	</Text>
+</Panel> -->
+
+<Panel ux:Class="Sketch.Text_card_date" Width="89" Height="49" Date="유효 번호">
+	<string ux:Property="Date" />
+	<Panel Width="100%" Height="4.081633%" Alignment="TopLeft" Offset="0%, 80.91837%" Margin="0" Opacity="0.6861979">
+		<!-- Line -->
+		<Path Data="M 0.9887640449438 0.5 L 0 0.5" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="1" Alignment="Center">
+				<SolidColor Color="0.6078922, 0.6078033, 0.6079226, 1" />
+			</Stroke>
+		</Path>
+	</Panel>
+	<Text Color="0.6078922, 0.6078033, 0.6079226, 1" FontSize="13" Value="{Property Date}" TextTruncation="None" TextWrapping="Wrap" Width="86.51685%" Height="34.69388%" Alignment="BottomLeft" Offset="0%, -32" Margin="0">
+		<!-- Password -->
+	</Text>
+</Panel>

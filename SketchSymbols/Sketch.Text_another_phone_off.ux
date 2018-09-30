@@ -1,0 +1,10 @@
+<Panel ux:Class="Sketch.Text_another_phone_off" Width="52" Height="56" Text_name="알뜰폰" Another_phone="알뜰폰">
+	<string ux:Property="Another_phone" />
+	<string ux:Property="Text_name" />
+	<Text Color="0.8862745, 0.8862745, 0.8862745, 1" FontSize="20" Value="{Property Another_phone}" TextTruncation="None" TextWrapping="Wrap" Width="100%" Height="42.85714%" Alignment="BottomLeft" Offset="0%, -32" Margin="0">
+		<!-- Another_phone -->
+	</Text>
+	<Text Color="0.6078922, 0.6078033, 0.6079226, 1" FontSize="14" Value="{Property Text_name}" TextTruncation="None" TextWrapping="Wrap" Width="71.15385%" Height="30.35714%" Alignment="BottomLeft" Offset="15.38461%, 0" Margin="0">
+		<!-- Text_name -->
+	</Text>
+</Panel>

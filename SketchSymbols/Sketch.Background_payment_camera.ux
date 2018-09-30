@@ -1,0 +1,57 @@
+<Panel ux:Class="Sketch.Background_payment_camera" Width="375" Height="365" pay="결제요청" totall_price_bg="총 결제금액" payment_item="결제 항목" store="상점" won="원">
+	<string ux:Property="won" />
+	<string ux:Property="store" />
+	<string ux:Property="payment_item" />
+	<string ux:Property="totall_price_bg" />
+	<string ux:Property="pay" />
+	<Panel Width="89.33334%" Height="0.5479452%" Alignment="TopLeft" Offset="5.333333%, 56.43835%" Margin="0" Opacity="0.5">
+		<!-- Path -->
+		<Path Data="M 0 0.5 L 1 0.5" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="1" Alignment="Center">
+				<SolidColor Color="0.8222783, 0.812235, 0.8257068, 1" />
+			</Stroke>
+		</Path>
+	</Panel>
+	<Panel Width="89.33334%" Height="0.5479452%" Alignment="TopLeft" Offset="5.333333%, 28.76712%" Margin="0" Opacity="0.5">
+		<!-- Path -->
+		<Path Data="M 0 0.5 L 1 0.5" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="1" Alignment="Center">
+				<SolidColor Color="0.8222783, 0.812235, 0.8257068, 1" />
+			</Stroke>
+		</Path>
+	</Panel>
+	<Text Color="0.2902216, 0.2901753, 0.2902375, 1" FontSize="16" Value="{Property won}" TextTruncation="None" TextWrapping="Wrap" TextAlignment="Right" Width="3.733333%" Height="5.20548%" Alignment="BottomLeft" Offset="90.93333%, -123" Margin="0">
+		<!-- won -->
+	</Text>
+	<Text Color="0.2902216, 0.2901753, 0.2902375, 1" FontSize="16" Value="{Property store}" TextTruncation="None" TextWrapping="Wrap" Width="7.466667%" Height="5.20548%" Alignment="BottomLeft" Offset="5.333333%, -272" Margin="0">
+		<!-- store -->
+	</Text>
+	<Text Color="0.2902216, 0.2901753, 0.2902375, 1" FontSize="16" Value="{Property payment_item}" TextTruncation="None" TextWrapping="Wrap" Width="16%" Height="5.20548%" Alignment="BottomLeft" Offset="5.333333%, -227" Margin="0">
+		<!-- payment_item -->
+	</Text>
+	<Text Color="0.2902216, 0.2901753, 0.2902375, 1" FontSize="16" Value="{Property totall_price_bg}" TextTruncation="None" TextWrapping="Wrap" Width="19.73333%" Height="5.20548%" Alignment="BottomLeft" Offset="5.333333%, -123" Margin="0">
+		<!-- totall_price_bg -->
+	</Text>
+	<Text Color="0, 0, 0, 1" FontSize="20" Value="{Property pay}" TextTruncation="None" TextWrapping="Wrap" TextAlignment="Center" Width="18.4%" Height="6.575343%" Alignment="BottomLeft" Offset="40.8%, -327" Margin="0">
+		<!-- pay -->
+	</Text>
+	<Panel Width="100%" Height="0.5479452%" Alignment="TopLeft" Offset="0%, 14.24658%" Margin="0">
+		<!-- Path -->
+		<Path Data="M 0 0.5 L 1 0.5" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="1" Alignment="Center">
+				<SolidColor Color="0.8222783, 0.812235, 0.8257068, 1" />
+			</Stroke>
+		</Path>
+	</Panel>
+	<Panel Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+		<!-- Rectangle -->
+		<Rectangle Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Shadow Angle="90" Distance="2" Color="0, 0, 0, 0.1733186" Size="20" Mode="PerPixel" />
+			<SolidColor Color="1" />
+		</Rectangle>
+	</Panel>
+</Panel>

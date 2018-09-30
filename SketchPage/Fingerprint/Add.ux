@@ -1,0 +1,20 @@
+<Panel ux:Class="Fingerprint.Add">
+	<Router ux:Dependency="router" />
+	<DockPanel>
+		<Panel Dock="Top">
+			<Sketch.Icon_back Alignment="Left" Margin="30,0,0,0"/> 
+		</Panel>
+
+		<StackPanel>
+			
+			<Sketch.Icon_fingerprint_on />
+			<Sketch.Text_fingerprint_percent />
+			<Sketch.Text_fingerprint />
+
+		</StackPanel>
+	
+	</DockPanel>
+	<Sketch.Button_next_on />
+	<!-- <M -->
+	<Sketch.Backgorund_dark_gray />
+</Panel>

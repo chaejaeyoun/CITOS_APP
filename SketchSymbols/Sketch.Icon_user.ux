@@ -1,0 +1,29 @@
+<Panel ux:Class="Sketch.Icon_user" Width="91" Height="91">
+	<Panel Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+		<!-- Oval -->
+		<Path Data="M 0.5 1 C 0.7761423749 1 1 0.7761423749 1 0.5 C 1 0.2238576251 0.7761423749 0 0.5 0 C 0.2238576251 0 0 0.2238576251 0 0.5 C 0 0.7761423749 0.2238576251 1 0.5 1" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="4" Alignment="Center">
+				<SolidColor Color="0.3607843, 0.6705883, 0.9960784, 1" />
+			</Stroke>
+		</Path>
+	</Panel>
+	<Panel Width="54.94505%" Height="18.68132%" Alignment="TopLeft" Offset="23.07692%, 53.84615%" Margin="0">
+		<!-- Path -->
+		<Path Data="M 0 1 C 0 0.3333333333333 0.1666666666667 4.082155997158E-17 0.5 0 C 0.8333333333333 0 1 0.3333333333333 1 1" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="4" Alignment="Center">
+				<SolidColor Color="0.3607843, 0.6705883, 0.9960784, 1" />
+			</Stroke>
+		</Path>
+	</Panel>
+	<Panel Width="24.17583%" Height="25.27472%" Alignment="TopLeft" Offset="38.46154%, 19.78022%" Margin="0">
+		<!-- Oval -->
+		<Path Data="M 0.5 1 C 0.7761423749 1 1 0.7761423749 1 0.5 C 1 0.2238576251 0.7761423749 0 0.5 0 C 0.2238576251 0 0 0.2238576251 0 0.5 C 0 0.7761423749 0.2238576251 1 0.5 1" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="4" Alignment="Center">
+				<SolidColor Color="0.3607843, 0.6705883, 0.9960784, 1" />
+			</Stroke>
+		</Path>
+	</Panel>
+</Panel>

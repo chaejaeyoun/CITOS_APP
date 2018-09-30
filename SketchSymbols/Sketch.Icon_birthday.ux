@@ -1,0 +1,5 @@
+<Panel ux:Class="Sketch.Icon_birthday" Width="66" Height="66">
+	<Image File="images/4404847e6584dc599e389ab9fb73fe621d97f3ac.png" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+		<!-- cake -->
+	</Image>
+</Panel>

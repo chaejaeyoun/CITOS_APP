@@ -1,0 +1,12 @@
+<Panel ux:Class="Sketch.Keyboard_backgorund_korean_05" Width="107" Height="57">
+	<Text Color="0, 0, 0, 1" FontSize="20" Value="ㄴㄹ" TextTruncation="None" TextWrapping="Wrap" TextAlignment="Center" Width="46.75177%" Height="42.10526%" Alignment="BottomLeft" Offset="26.16822%, -16" Margin="0">
+		<!-- 05 -->
+	</Text>
+	<Panel Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+		<!-- Rectangle -->
+		<Rectangle CornerRadius="10" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<SolidColor Color="1" />
+		</Rectangle>
+	</Panel>
+</Panel>

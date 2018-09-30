@@ -1,0 +1,128 @@
+<Panel ux:Class="Sketch.No_Card_K_card" Width="276" Height="172" S_card="KB 국민카드" text5="CVV 번호" text4="유효 기간" text3="________ - _______ - _______ - _______" text1="______" text0="카드 번호" text2="____ / ____">
+	<string ux:Property="text2" />
+	<string ux:Property="text0" />
+	<string ux:Property="text1" />
+	<string ux:Property="text3" />
+	<string ux:Property="text4" />
+	<string ux:Property="text5" />
+	<string ux:Property="S_card" />
+	<Text Color="1" FontSize="10.206" Value="{Property text2}" TextTruncation="None" TextWrapping="Wrap" Width="13.4058%" Height="6.976744%" Alignment="BottomLeft" Offset="42.75362%, -74" Margin="0">
+		<!-- text2 -->
+	</Text>
+	<Image File="images/861f7d4eb00c844b2bfb76e4940d7a7eaa153f80.png" Width="21.73913%" Height="14.53488%" Alignment="TopLeft" Offset="71.0145%, 6.976744%" Margin="0" Opacity="0.4">
+		<!-- visa -->
+	</Image>
+	<Text Color="1" FontSize="14" Value="4/6" TextTruncation="None" TextWrapping="Wrap" Width="7.608696%" Height="9.883721%" Alignment="BottomLeft" Offset="7.246377%, -12" Margin="0">
+		<!-- 4/6 -->
+	</Text>
+	<Text Color="1" FontSize="8.019" Value="{Property text0}" TextTruncation="None" TextWrapping="Wrap" Width="10.86957%" Height="5.232558%" Alignment="BottomLeft" Offset="43.11594%, -130" Margin="0">
+		<!-- text0 -->
+	</Text>
+	<Text Color="1" FontSize="10.206" Value="{Property text1}" TextTruncation="None" TextWrapping="Wrap" Width="7.608696%" Height="6.976744%" Alignment="BottomLeft" Offset="42.75362%, -33" Margin="0">
+		<!-- text1 -->
+	</Text>
+	<Text Color="1" FontSize="10.206" Value="{Property text3}" TextTruncation="None" TextWrapping="Wrap" Width="46.01449%" Height="6.976744%" Alignment="BottomLeft" Offset="42.75362%, -114" Margin="0">
+		<!-- text3 -->
+	</Text>
+	<Text Color="1" FontSize="8.019" Value="{Property text4}" TextTruncation="None" TextWrapping="Wrap" Width="10.86957%" Height="5.232558%" Alignment="BottomLeft" Offset="43.11594%, -90" Margin="0">
+		<!-- text4 -->
+	</Text>
+	<Text Color="1" FontSize="8.019" Value="{Property text5}" TextTruncation="None" TextWrapping="Wrap" Width="11.23188%" Height="5.232558%" Alignment="BottomLeft" Offset="43.11594%, -50" Margin="0">
+		<!-- text5 -->
+	</Text>
+	<Panel Width="3.623188%" Height="8.139535%" Alignment="TopLeft" Offset="7.246377%, 23.83721%" Margin="0" Opacity="0.8">
+		<!-- Path -->
+		<Path Data="M 0 0 L 1 0.5 L 0 1" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="1" Alignment="Center">
+				<SolidColor Color="1" />
+			</Stroke>
+		</Path>
+		<Rotation DegreesY="-180" />
+	</Panel>
+	<Panel Width="0.5072464%" Height="10.53397%" Alignment="TopLeft" Offset="28.56884%, 19.76744%" Margin="0">
+		<!-- Path -->
+		<Path Data="M 0.5 0 L 0.5 1" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="0.7" Alignment="Center">
+				<SolidColor Color="0.592, 0.592, 0.592, 1" />
+			</Stroke>
+		</Path>
+		<Rotation DegreesX="-180" />
+	</Panel>
+	<Panel Width="3.550725%" Height="0.8261933%" Alignment="TopLeft" Offset="28.69565%, 25.1377%" Margin="0">
+		<!-- Path -->
+		<Path Data="M 0 0.5 L 1 0.5" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="0.7" Alignment="Center">
+				<SolidColor Color="0.592, 0.592, 0.592, 1" />
+			</Stroke>
+		</Path>
+		<Rotation DegreesX="-180" />
+	</Panel>
+	<Panel Width="3.550725%" Height="0.8261933%" Alignment="TopLeft" Offset="28.69565%, 29.68176%" Margin="0">
+		<!-- Path -->
+		<Path Data="M 0 0.5 L 1 0.5" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="0.7" Alignment="Center">
+				<SolidColor Color="0.592, 0.592, 0.592, 1" />
+			</Stroke>
+		</Path>
+		<Rotation DegreesX="-180" />
+	</Panel>
+	<Panel Width="1.014493%" Height="15.69767%" Alignment="TopLeft" Offset="22.6087%, 19.76744%" Margin="0">
+		<!-- Path -->
+		<Path Data="M 0.5 0 L 0.5 1" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="0.7" Alignment="Center">
+				<SolidColor Color="0.592, 0.592, 0.592, 1" />
+			</Stroke>
+		</Path>
+		<Rotation DegreesX="-180" />
+		<Rotation DegreesY="-180" />
+	</Panel>
+	<Panel Width="3.550725%" Height="0.8261933%" Alignment="TopLeft" Offset="19.56522%, 25.1377%" Margin="0">
+		<!-- Path -->
+		<Path Data="M 0 0.5 L 1 0.5" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="0.7" Alignment="Center">
+				<SolidColor Color="0.592, 0.592, 0.592, 1" />
+			</Stroke>
+		</Path>
+		<Rotation DegreesX="-180" />
+		<Rotation DegreesY="-180" />
+	</Panel>
+	<Panel Width="3.550725%" Height="0.8261933%" Alignment="TopLeft" Offset="19.56522%, 29.68176%" Margin="0">
+		<!-- Path -->
+		<Path Data="M 0 0.5 L 1 0.5" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="0.7" Alignment="Center">
+				<SolidColor Color="0.592, 0.592, 0.592, 1" />
+			</Stroke>
+		</Path>
+		<Rotation DegreesX="-180" />
+		<Rotation DegreesY="-180" />
+	</Panel>
+	<Panel Width="12.68116%" Height="15.69767%" Alignment="TopLeft" Offset="19.56522%, 19.76744%" Margin="0">
+		<!-- Rectangle -->
+		<Rectangle CornerRadius="4.2" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<SolidColor Color="0.9843137, 0.9843137, 0.9843137, 1" />
+		</Rectangle>
+		<Rotation DegreesX="-180" />
+	</Panel>
+	<Text Color="1" FontSize="14" Value="{Property S_card}" TextTruncation="None" TextWrapping="Wrap" TextAlignment="Right" Width="25%" Height="9.883721%" Alignment="BottomLeft" Offset="67.75362%, -12" Margin="0">
+		<!-- S_card -->
+	</Text>
+	<Panel Width="99.85178%" Height="100%" Alignment="TopLeft" Margin="0">
+		<!-- Rectangle -->
+		<Rectangle CornerRadius="10" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Shadow Angle="90" Distance="4" Color="0, 0, 0, 0.22" Size="10" Mode="PerPixel" />
+			<LinearGradient StartPoint="1.110223E-16, 1" EndPoint="0.972882, 0.02711795">
+				<GradientStop Color="0.993921, 0.839405, 0.4695463, 1" Offset="0" />
+				<GradientStop Color="0.896976, 0.4536695, 0.1832246, 1" Offset="1" />
+			</LinearGradient>
+		</Rectangle>
+	</Panel>
+</Panel>

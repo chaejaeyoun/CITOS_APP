@@ -1,0 +1,12 @@
+<Panel ux:Class="Sketch.Icon_back" Width="9" Height="15">
+	<Panel Width="166.6667%" Height="60%" Alignment="BottomRight" Offset="3, -3" Margin="0">
+		<!-- Path -->
+		<Path Data="M 0 1 L 0.4982634389093 0 L 1 1" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="2" Alignment="Center">
+				<SolidColor Color="0.6078922, 0.6078033, 0.6079226, 1" />
+			</Stroke>
+		</Path>
+		<Rotation Degrees="270" />
+	</Panel>
+</Panel>

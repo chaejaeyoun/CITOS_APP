@@ -1,0 +1,7 @@
+<Panel ux:Class="Sketch.Text_no_card_add" Width="132" Height="35" No_Card_add="등록된 카드가 없습니다.
+카드를 등록해주세요.">
+	<string ux:Property="No_Card_add" />
+	<Text Color="0.6078922, 0.6078033, 0.6079226, 1" FontSize="13" Value="{Property No_Card_add}" TextTruncation="None" TextWrapping="Wrap" TextAlignment="Center" Width="100%" Height="100%" Alignment="BottomRight" Margin="0">
+		<!-- No_Card_add -->
+	</Text>
+</Panel>

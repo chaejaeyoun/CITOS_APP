@@ -1,0 +1,5 @@
+<Panel ux:Class="Sketch.QR_code" Width="268" Height="268">
+	<Image File="images/6b253c89b6ac30c35bcdf167bfecbdece9420007.png" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+		<!-- QR_code -->
+	</Image>
+</Panel>

@@ -1,0 +1,45 @@
+<Page ux:Class="Cardpage">
+	<Router ux:Dependency="router" />
+	<JavaScript File="Cardjs.js" />	
+	<Grid>
+			<DockPanel Background="#fff">
+				<DockPanel ux:Name="topPanel" Dock="Top" Background="#333">
+		            <Button Text="&lt; Back" Dock="Left">
+		                <Clicked>
+		                    <Callback Handler="{goBack}" />
+		                </Clicked>
+		            </Button>
+		        </DockPanel>
+		    </DockPanel>
+
+			<StackPanel>
+					<!-- Card -->
+					<TextInput Row="0" Column="1" PlaceholderText="Card Number(16 numbers without ' - ')" Value="{cardnum}" PlaceholderColor="#999" TextColor="#000" CaretColor="#000" />
+					<Rectangle Row="0" Column="0" Alignment="Bottom" ColumnSpan="2" Height="1" Color="#000"/>
+
+					<!-- bnak -->
+					<TextInput Row="0" Column="1" PlaceholderText="Bank Number" Value="{cardbank}" PlaceholderColor="#999" TextColor="#000" CaretColor="#000" />
+					<Rectangle Row="0" Column="0" Alignment="Bottom" ColumnSpan="2" Height="1" Color="#000"/>
+
+					<!-- Month -->
+					<TextInput Row="0" Column="1" PlaceholderText="Month" Value="{month}" PlaceholderColor="#999" TextColor="#000" CaretColor="#000" />
+					<Rectangle Row="0" Column="0" Alignment="Bottom" ColumnSpan="2" Height="1" Color="#000"/>
+
+					<!-- Year -->
+					<TextInput Row="0" Column="1" PlaceholderText="Year" Value="{year}" PlaceholderColor="#999" TextColor="#000" CaretColor="#000" />
+					<Rectangle Row="0" Column="0" Alignment="Bottom" ColumnSpan="2" Height="1" Color="#000"/>
+
+					<!-- Save -->
+					<Panel Width="150" Height="50" Margin="20" Alignment="Center">
+						<Text Value="Card Save" Color="#fff" Alignment="Center" FontSize="20"/>
+						<Rectangle  Color="#000" />
+						<Clicked>
+							<Callback Handler="{SaveCard}"/>
+
+		 				</Clicked>
+					</Panel>
+			</StackPanel>
+
+
+		</Grid>
+</Page>

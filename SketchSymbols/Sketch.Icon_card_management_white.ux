@@ -1,0 +1,5 @@
+<Panel ux:Class="Sketch.Icon_card_management_white" Width="34" Height="25">
+	<Image File="images/7a8a8e27818cff6f2f7ecb7eef43125fc1873cb2.png" Width="100%" Height="100%" Alignment="BottomRight" Margin="0">
+		<!-- card_icon -->
+	</Image>
+</Panel>

@@ -1,0 +1,28 @@
+<Page ux:Class="Qrpage">
+		<Router ux:Dependency="router" />
+			<JavaScript File="Qrjs.js" />
+			<Grid>
+				<DockPanel Background="#fff">
+					<DockPanel ux:Name="topPanel" Dock="Top" Background="#333">
+			            <Button Text="&lt; Back" Dock="Left">
+			                <Clicked>
+			                    <Callback Handler="{goBack}" />
+			                </Clicked>
+			            </Button>
+			        </DockPanel>
+				</DockPanel>
+
+				<StackPanel>
+					<Text FontSize="32">Qr scan example</Text>
+					<Text Value="{txt}"/>
+					<Button Text="Scan" Clicked="{load}" />
+
+				</StackPanel>
+
+
+
+			</Grid>			
+			
+		
+</Page>
+

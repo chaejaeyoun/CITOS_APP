@@ -1,0 +1,12 @@
+<Panel ux:Class="Sketch.Keyboard_01" Width="107" Height="57">
+	<Text Color="0, 0, 0, 1" FontSize="20" Value="1" TextTruncation="None" TextWrapping="Wrap" TextAlignment="Center" Width="9.756097%" Height="42.10526%" Alignment="BottomLeft" Offset="45.12195%, -15.89362" Margin="0">
+		<!-- 1 -->
+	</Text>
+	<Panel Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+		<!-- Rectangle -->
+		<Rectangle CornerRadius="10" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<SolidColor Color="1" />
+		</Rectangle>
+	</Panel>
+</Panel>

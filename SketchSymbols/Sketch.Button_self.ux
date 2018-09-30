@@ -1,0 +1,14 @@
+<Panel ux:Class="Sketch.Button_self" Width="162" Height="45" cancel="직접 입력">
+	<string ux:Property="cancel" />
+	<Text Color="1" FontSize="18" Value="{Property cancel}" TextTruncation="None" TextWrapping="Wrap" TextAlignment="Center" Width="46.2963%" Height="46.66667%" Alignment="BottomRight" Offset="-44, -12" Margin="0">
+		<!-- cancel -->
+	</Text>
+	<Panel Width="100%" Height="100%" Alignment="BottomRight" Margin="0">
+		<!-- Rectangle -->
+		<Rectangle CornerRadius="10" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Shadow Angle="90" Distance="4" Color="0, 0, 0, 0.22" Size="10" Mode="PerPixel" />
+			<SolidColor Color="0.7450981, 0.7450981, 0.7490196, 1" />
+		</Rectangle>
+	</Panel>
+</Panel>

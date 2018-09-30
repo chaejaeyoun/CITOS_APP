@@ -1,0 +1,32 @@
+<Panel ux:Class="Authorization.Gender">
+	<Router ux:Dependency="router" />
+	
+	<Sketch.Button_next_off  Alignment="BottomCenter" Margin="30"/> 
+	<DockPanel>
+		<Panel Dock="Top">
+			<Sketch.Icon_back Alignment="Left" Margin="30,0,0,0"/> 
+			<Sketch.Text_Authorization />
+			<Sketch.Top_Bar />
+
+		</Panel>
+		
+		<Panel  Dock="Top">
+			<StackPanel>
+				
+				<Sketch.Icon_man_on />
+				<Sketch.Icon_man_off />
+				<Sketch.Icon_woman_off/>
+				<Sketch.Icon_woman_on />
+
+
+			</StackPanel>
+
+
+		</Panel>
+		
+	</DockPanel>
+
+	<Sketch.Background />
+
+</Panel>
+

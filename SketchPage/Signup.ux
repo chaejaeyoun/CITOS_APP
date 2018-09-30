@@ -1,0 +1,75 @@
+<Page ux:Class="Signup">
+	<Router ux:Dependency="router" />
+			<JavaScript File="SignupJs.js" />
+
+	<StackPanel>		
+		<Panel Dock="Top"> 
+			<!-- 뒤로가기 버튼 -->
+			<Sketch.Icon_back Anchor="1700%,70%" HitTestMode="LocalBoundsAndChildren" Clicked="{goBack}"/>
+			<Sketch.Top_Bar />
+
+		</Panel>
+<!-- 					ID
+					<TextInput Row="0" Column="1" PlaceholderText="ID" Value="{saveid}" PlaceholderColor="#999" TextColor="#000" CaretColor="#000" />
+					<Rectangle Row="0" Column="0" Alignment="Bottom" ColumnSpan="2" Height="2" Color="#000"/>
+
+					Password
+					<TextInput Row="1" Column="1" PlaceholderText="PW" Value="{savepassword}" PlaceholderColor="#999" TextColor="#000" CaretColor="#000" IsPassword="true"/>
+					<Rectangle Row="1" Column="0" Alignment="Bottom" ColumnSpan="2" Height="2" Color="#000"/>
+
+					Name
+					<TextInput Row="0" Column="1" PlaceholderText="Name" Value="{savename}" PlaceholderColor="#999" TextColor="#000" CaretColor="#000" />
+					<Rectangle Row="0" Column="0" Alignment="Bottom" ColumnSpan="2" Height="2" Color="#000"/>
+
+					Age
+					<TextInput Row="0" Column="1" PlaceholderText="Age" Value="{saveage}" PlaceholderColor="#999" TextColor="#000" CaretColor="#000" />
+					<Rectangle Row="0" Column="0" Alignment="Bottom" ColumnSpan="2" Height="2" Color="#000"/>
+
+					Sex
+					<TextInput Row="0" Column="1" PlaceholderText="Sex" Value="{savesex}" PlaceholderColor="#999" TextColor="#000" CaretColor="#000" />
+					<Rectangle Row="0" Column="0" Alignment="Bottom" ColumnSpan="2" Height="2" Color="#000"/> -->						
+										
+				<StackPanel Anchor="50%,-20%">
+					<Panel>
+						<Sketch.password_2_off  Anchor="50%,100%" >
+							<TextInput Row="0" Column="1" PlaceholderText="ID" PlaceholderColor="#999" Value="{saveid}" TextColor="#000" CaretColor="#000" Anchor="50%,65%" FontSize="20"/>
+						</Sketch.password_2_off>
+					</Panel>
+
+					<Panel>
+						<Sketch.password_2_off  Anchor="50%,100%" >
+							<TextInput Row="0" Column="1" PlaceholderText="Password" PlaceholderColor="#999" Value="{savepassword}" TextColor="#000" CaretColor="#000" Anchor="50%,65%" FontSize="20" IsPassword="true"/>
+						</Sketch.password_2_off>
+					</Panel>
+					<Panel>
+						<Sketch.password_2_off  Anchor="50%,100%" >
+							<TextInput Row="0" Column="1" PlaceholderText="Name" PlaceholderColor="#999" Value="{savename}" TextColor="#000" CaretColor="#000" Anchor="50%,65%" FontSize="20"/>
+						</Sketch.password_2_off>
+					</Panel>
+					<Panel>
+						<Sketch.password_2_off  Anchor="50%,100%" >
+							<TextInput Row="0" Column="1" PlaceholderText="Age" PlaceholderColor="#999" Value="{saveage}" TextColor="#000" CaretColor="#000" Anchor="50%,65%" FontSize="20"/>
+						</Sketch.password_2_off>
+					</Panel>
+					<Panel>
+						<Sketch.password_2_off  Anchor="50%,100%" >
+							<TextInput Row="0" Column="1" PlaceholderText="Sex" PlaceholderColor="#999" Value="{savesex}" TextColor="#000" CaretColor="#000" Anchor="50%,65%" FontSize="20"/>
+						</Sketch.password_2_off>
+					</Panel>
+					
+
+					<!-- Save -->
+					<Panel Width="150" Height="50" Margin="20" Alignment="Center">
+						<Text Value="Save" Color="#fff" Alignment="Center" FontSize="20"/>
+						<Rectangle  Color="0.3607843, 0.6705883, 0.9960784, 1" />
+						<Clicked>
+							<Callback Handler="{Save}"/>
+
+		 				</Clicked>
+					</Panel>
+
+				</StackPanel>
+
+				</StackPanel>
+
+</Page>

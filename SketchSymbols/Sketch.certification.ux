@@ -1,0 +1,11 @@
+<Panel ux:Class="Sketch.certification" Width="223" Height="2">
+	<Panel Width="99.75605%" Height="100%" Alignment="TopLeft" Margin="0">
+		<!-- Path -->
+		<Path Data="M 0 0.5 L 1 0.5" StretchMode="Fill" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<Stroke Width="1" Alignment="Center">
+				<SolidColor Color="0.592, 0.592, 0.592, 1" />
+			</Stroke>
+		</Path>
+	</Panel>
+</Panel>

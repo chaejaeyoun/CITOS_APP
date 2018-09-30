@@ -1,0 +1,9 @@
+<Panel ux:Class="Sketch.Icon_Kt" Width="30" Height="61" Text_name="KT">
+	<string ux:Property="Text_name" />
+	<Text Color="0.3607843, 0.6705883, 0.9960784, 1" FontSize="14" Value="{Property Text_name}" TextTruncation="None" TextWrapping="Wrap" Width="56.66667%" Height="27.86885%" Alignment="BottomLeft" Offset="23.33333%, 0" Margin="0">
+		<!-- Text_name -->
+	</Text>
+	<Image File="images/c38e8557829a1c196b5627be6b27de8587b0b7df.png" Width="100%" Height="43.76399%" Alignment="TopLeft" Margin="0">
+		<!-- KT -->
+	</Image>
+</Panel>

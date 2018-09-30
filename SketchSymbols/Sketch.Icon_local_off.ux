@@ -1,0 +1,9 @@
+<Panel ux:Class="Sketch.Icon_local_off" Width="113" Height="120" Text_name="내국인">
+	<string ux:Property="Text_name" />
+	<Image File="images/9729ea59b87629b9194e64e6fc4e38564b66472b.png" Width="83.18584%" Height="59.65531%" Alignment="TopLeft" Offset="8.849558%, 0%" Margin="0">
+		<!-- icon -->
+	</Image>
+	<Text Color="0.6078922, 0.6078033, 0.6079226, 1" FontSize="18" Value="{Property Text_name}" TextTruncation="None" TextWrapping="Wrap" Width="41.59292%" Height="17.5%" Alignment="BottomLeft" Offset="30.0885%, -3" Margin="0">
+		<!-- Text_name -->
+	</Text>
+</Panel>

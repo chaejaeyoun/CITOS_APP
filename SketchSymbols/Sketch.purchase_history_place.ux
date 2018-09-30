@@ -1,0 +1,6 @@
+<Panel ux:Class="Sketch.purchase_history_place" Width="40" Height="19" store_name_purchase="L 식당">
+	<string ux:Property="store_name_purchase" />
+	<Text Color="0.3607843, 0.6705883, 0.9960784, 1" FontSize="16" Value="{Property store_name_purchase}" TextTruncation="None" TextWrapping="Wrap" TextAlignment="Right" Width="100%" Height="100%" Alignment="BottomLeft" Margin="0">
+		<!-- store_name_purchase -->
+	</Text>
+</Panel>

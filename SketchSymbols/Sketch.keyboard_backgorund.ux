@@ -1,0 +1,23 @@
+<Panel ux:Class="Sketch.keyboard_backgorund" Width="375" Height="253" safty="보안 키패드 작동중">
+	<string ux:Property="safty" />
+	<Image File="images/98e1b3ef257f1a4168eb6aaf04f3dadb2aa53e75.png" Width="6.133333%" Height="8.300395%" Alignment="TopLeft" Offset="4.8%, 3.952569%" Margin="0">
+		<!-- safty -->
+	</Image>
+	<Text Color="0.6078922, 0.6078033, 0.6079226, 1" FontSize="16" Value="{Property safty}" TextTruncation="None" TextWrapping="Wrap" TextAlignment="Center" Width="31.73333%" Height="7.509881%" Alignment="BottomLeft" Offset="12%, -222" Margin="0">
+		<!-- safty -->
+	</Text>
+	<Panel Width="100%" Height="84.98024%" Alignment="TopLeft" Offset="0%, 15.01976%" Margin="0">
+		<!-- Rectangle -->
+		<Rectangle Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<SolidColor Color="0.8859747, 0.8859747, 0.8859747, 1" />
+		</Rectangle>
+	</Panel>
+	<Panel Width="100%" Height="85.77075%" Alignment="TopLeft" Margin="0">
+		<!-- Rectangle -->
+		<Rectangle Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<SolidColor Color="0.9352147, 0.9352147, 0.9352147, 1" />
+		</Rectangle>
+	</Panel>
+</Panel>

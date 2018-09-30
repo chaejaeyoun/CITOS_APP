@@ -1,0 +1,5 @@
+<Panel ux:Class="Sketch.Icon_infographic" Width="307" Height="340">
+	<Image File="images/6ac6c3fa27fea21d7fabba9914761f1e62bce8b1.png" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+		<!-- infographic -->
+	</Image>
+</Panel>

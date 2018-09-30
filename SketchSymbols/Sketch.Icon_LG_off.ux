@@ -1,0 +1,9 @@
+<Panel ux:Class="Sketch.Icon_LG_off" Width="37" Height="61" Text_name="LG U+">
+	<string ux:Property="Text_name" />
+	<Text Color="0.6078922, 0.6078033, 0.6079226, 1" FontSize="14" Value="{Property Text_name}" TextTruncation="None" TextWrapping="Wrap" Width="100%" Height="27.86885%" Alignment="BottomLeft" Margin="0">
+		<!-- Text_name -->
+	</Text>
+	<Image File="images/31babe486fc854243fdee7246742274fa154dd28.png" Width="81.08108%" Height="43.50568%" Alignment="TopLeft" Offset="10.81081%, 0%" Margin="0">
+		<!-- LG -->
+	</Image>
+</Panel>

@@ -1,0 +1,5 @@
+<Panel ux:Class="Sketch.Text_card_CVV_number" Width="34" Height="24">
+	<Text Color="0.3607843, 0.6705883, 0.9960784, 1" FontSize="20" Value="486" TextTruncation="None" TextWrapping="Wrap" Width="100%" Height="100%" Alignment="BottomLeft" Margin="0">
+		<!-- 486 -->
+	</Text>
+</Panel>

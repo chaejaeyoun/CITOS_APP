@@ -1,0 +1,9 @@
+<Panel ux:Class="Sketch.add_card_nothing" Width="275" Height="162">
+	<Panel Width="100%" Height="100%" Alignment="BottomRight" Margin="0" Opacity="0.5">
+		<!-- Rectangle -->
+		<Rectangle CornerRadius="10" Width="100%" Height="100%" Alignment="TopLeft" Margin="0">
+			<!-- Path -->
+			<SolidColor Color="0.928412, 0.928412, 0.928412, 1" />
+		</Rectangle>
+	</Panel>
+</Panel>
