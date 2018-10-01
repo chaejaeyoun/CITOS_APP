@@ -1,6 +1,6 @@
 <Page ux:Class="EnrollmentCard">
 	<Router ux:Dependency="router" />
-	<JavaScript File="AddCardJS.js"/>
+	<JavaScript File="AppJS.js"/>
 
 	<!--다음 버튼-->
 	<Sketch.Button_next_off  Alignment="BottomCenter" Margin="30" Clicked="{SaveCard}"/> 

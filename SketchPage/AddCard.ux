@@ -1,6 +1,6 @@
 <Page ux:Class="AddCard">
 	<Router ux:Dependency="router" />
-	<JavaScript File="AddCardJS.js"/>
+	<JavaScript File="AppJS.js"/>
 
 	<!-- 카드등록 버튼 -->
 	<Sketch.Button_add_card Alignment="BottomCenter" Margin="30" Clicked="{Add}"/> 

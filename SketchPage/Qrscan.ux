@@ -1,6 +1,6 @@
 <Panel ux:Class="Qrscan">
 		<Router ux:Dependency="router" />
-	<JavaScript File="AddCardJS.js"/>
+	<JavaScript File="AppJS.js"/>
 
 	<Sketch.Button_next_off  Alignment="BottomCenter" Margin="30" Clicked="{Clicked}"/> 
 
@@ -13,17 +13,24 @@
 
 		</Panel>
 		
-		<Sketch.Icon_QR_camera Size="100" Alignment="Center" Color="Blue" Clicked="{scan4}" Anchor="50%,150%"/>	
-
-		<Text Value="{txt1}" Alignment="Center"/>
-
-		<Text Value="{txt2}" Alignment="Center" Anchor="50%,200%"/>
+		<Sketch.Icon_QR_camera Size="100" Alignment="Center"  Clicked="{scan4}" Anchor="50%,250%"/>	
 
 
-		
+
+
+		<Panel Alignment="Bottom">
+
+
+			<Sketch.payment_card Anchor="155%, 250%" />
+			<Text Value="{txt1}" Alignment="Center" FontSize="15" Anchor="-220%, -460%"/>
+			<Text Value="{txt2}" Alignment="Center" FontSize="15" Anchor="50%, -80%"/>
+
+			<Sketch.payment_remain Alignment="Bottom"/>
+		</Panel>
+
 	</DockPanel>
 
-	<Sketch.Background />
+	<Sketch.Splashscreen/>
 
 
 

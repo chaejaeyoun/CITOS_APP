@@ -76,7 +76,7 @@ function SaveCard(){
 	            	
 	              });
 
-	fetch('http://52f05b35.ngrok.io/card/add',{
+	fetch('http://77b08f43.ngrok.io/card/add',{
 	            method: "POST",
 	            headers: {
 	            	"Content-type": "application/json"
@@ -239,7 +239,7 @@ function next(){
         		'Costpassword' : costpassword.value
               });
 
-	fetch('http://52f05b35.ngrok.io/qrcode/qrbill',{
+	fetch('http://77b08f43.ngrok.io/qrcode/qrbill',{
 	            method: "POST",
 	            headers: {
 	            	"Content-type": "application/json"
