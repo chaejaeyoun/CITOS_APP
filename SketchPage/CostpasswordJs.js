@@ -14,14 +14,6 @@ function back(){
 }
 
 
-function check(){
-	console.log(JSON.stringify(bill));
-	console.log(JSON.stringify(bill._values));
-	console.log(bill._values.menu);
-}
-
-
-
 function next(){
 	// router.push("Costresult");
 	// console.log("Move to Costresult");
@@ -68,7 +60,6 @@ module.exports = {
     back : back,
     next : next,
     Cardpassword : Cardpassword,
-    bill : bill,
-    check : check
+    bill : bill
 
 };

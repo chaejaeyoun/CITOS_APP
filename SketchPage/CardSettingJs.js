@@ -12,10 +12,16 @@ function Setting(){
 	console.log("Move to Qrscan");
 }
 
+function back3(){
+	router.push("AddCard");
+	console.log("Move to AddCard");
+}
+
 
 
 module.exports = {
 	Setting : Setting,
 	iD : iD,
-	id : id
+	id : id,
+	back3 : back3
 };

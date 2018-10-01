@@ -1,21 +1,23 @@
 <Panel ux:Class="Qrscan">
 		<Router ux:Dependency="router" />
-	<JavaScript File="QrscanJS.js"/>
+	<JavaScript File="AddCardJS.js"/>
 
 	<Sketch.Button_next_off  Alignment="BottomCenter" Margin="30" Clicked="{Clicked}"/> 
 
 	<DockPanel>
 		<Panel Dock="Top"> 
-			<Sketch.Icon_back Anchor="1700%,30%" HitTestMode="LocalBoundsAndChildren" Clicked="{back}"/>
+			<Sketch.Icon_back Anchor="1700%,30%" HitTestMode="LocalBoundsAndChildren" Clicked="{back4}"/>
 			<Sketch.Logo_white Size="25" Alignment="Left" Color="Blue" Anchor="-490%,30%"/>
 			<Sketch.App_name_blue Size="90" Alignment="Left" Color="Blue" Anchor="-175%,42%"/>
 			<Sketch.Top_Bar />
 
 		</Panel>
 		
-		<Sketch.Icon_QR_camera Size="100" Alignment="Center" Color="Blue" Clicked="{scan}"/>	
+		<Sketch.Icon_QR_camera Size="100" Alignment="Center" Color="Blue" Clicked="{scan4}" Anchor="50%,150%"/>	
 
-		<Text Value="{txt}" Alignment="Center" />
+		<Text Value="{txt1}" Alignment="Center"/>
+
+		<Text Value="{txt2}" Alignment="Center" Anchor="50%,200%"/>
 
 
 		

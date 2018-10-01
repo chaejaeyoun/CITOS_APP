@@ -1,6 +1,6 @@
 <Page ux:Class="EnrollmentCard">
 	<Router ux:Dependency="router" />
-	<JavaScript File="EnrollmentCardJS.js"/>
+	<JavaScript File="AddCardJS.js"/>
 
 	<!--다음 버튼-->
 	<Sketch.Button_next_off  Alignment="BottomCenter" Margin="30" Clicked="{SaveCard}"/> 
@@ -10,8 +10,8 @@
 			<!-- 카드정보 입력 -->
 			<Sketch.Text_card_information />
 			<!-- 뒤로가기 버튼 -->
-			<Sketch.Icon_back Anchor="1700%,70%" HitTestMode="LocalBoundsAndChildren" Clicked="{back}"/>
-			<Sketch.Icon_QR_camera Size="25" Alignment="Right" Color="Blue" Anchor="180%,30%"/>
+			<Sketch.Icon_back Anchor="1700%,70%" HitTestMode="LocalBoundsAndChildren" Clicked="{back2}"/>
+			<Sketch.Icon_QR_camera Size="25" Alignment="Right" Color="Blue" Anchor="180%,30%" Clicked="{scan2}"/>
 
 			<Sketch.Top_Bar />
 

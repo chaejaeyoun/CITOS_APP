@@ -1,15 +1,15 @@
 <Page ux:Class="CardSetting">
 	<Router ux:Dependency="router" />
-	<JavaScript File="CardSettingJs.js"/>
+	<JavaScript File="AddCardJS.js"/>
 
 	<!-- <Sketch.Button_next_off  Alignment="BottomCenter" Margin="30"/>  -->
 	<DockPanel>
 		<Panel Dock="Top"> 
 			<!-- <Sketch.logo /> -->
-			<Sketch.Icon_back Anchor="1700%,30%" HitTestMode="LocalBoundsAndChildren" Clicked="{back}"/>
+			<Sketch.Icon_back Anchor="1700%,30%" HitTestMode="LocalBoundsAndChildren" Clicked="{back3}"/>
 			<Sketch.Logo_white Size="25" Alignment="Left" Color="Blue" Anchor="-490%,30%"/>
 			<Sketch.App_name_blue Size="90" Alignment="Left" Color="Blue" Anchor="-175%,42%"/>
-			<Sketch.Icon_QR_camera Size="25" Alignment="Right" Color="Blue" Anchor="180%,30%"/>
+			<Sketch.Icon_QR_camera Size="25" Alignment="Right" Color="Blue" Anchor="180%,30%" Clicked="{scan3}"/>
 
 			<Sketch.Top_Bar />
 
