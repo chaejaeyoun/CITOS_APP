@@ -2,7 +2,7 @@ var Observable = require('FuseJS/Observable');
 
 function goBack()
 {
-	router.push("Login");
+	router.push("LogIn");
     console.log("goback");
     
      
@@ -18,7 +18,7 @@ var savename = Observable("");
 function Save(){
     console.log('UPID'); //Sign_in 함수가 호출되었는지 확인
 
-	fetch('http://77b08f43.ngrok.io/users/signup',{
+	fetch('http://0a232bf2.ngrok.io/users/signup',{
 	            method: "POST",
 	            headers: {
 	            	"Content-type": "application/json"

@@ -1,6 +1,6 @@
 <Page ux:Class="Costresult">
 	<Router ux:Dependency="router" />
-	<JavaScript File="AppJS.js"/>
+	<JavaScript File="CostresultJS.js"/>
 
 
 	<Panel>

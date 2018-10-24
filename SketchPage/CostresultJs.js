@@ -1,7 +1,7 @@
 var Observable = require('FuseJS/Observable');
 
 function back(){
-	router.push("Costpassword");
+	router.push("AddCard");
 	console.log("Move to AddCard");
 }
 
